@@ -1,0 +1,10 @@
+streamlit
+pandas
+plotly
+python-dotenv
+anthropic
+requests
+sqlalchemy
+pydantic
+passlib
+bcrypt
