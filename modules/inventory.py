@@ -14,13 +14,9 @@ def get_inventory_summary():
     try:
         total = db.query(Inventory).count()
         low = db.query(Inventory).filter(Inventory.quantity <= Inventory.reorder_level).count()
-        
-        # Calculate total stock value via Python or SQL
         items = db.query(Inventory).all()
         stock_val = sum(item.quantity * item.unit_price for item in items if item.unit_price)
-        
         categories = len(set(item.category for item in items if item.category))
-        
         return {
             "total_products": total,
             "low_stock_items": low,
@@ -29,6 +25,16 @@ def get_inventory_summary():
         }
     finally:
         db.close()
+
+def get_low_stock_items():
+    """Returns a DataFrame of items at or below reorder level."""
+    with engine.connect() as conn:
+        df = pd.read_sql_query(
+            "SELECT product_name, category, quantity, reorder_level, unit_price "
+            "FROM inventory WHERE quantity <= reorder_level ORDER BY quantity ASC", conn
+        )
+        return df
+
 
 def get_all_products():
     """Returns a pandas DataFrame of all products in inventory via SQLAlchemy engine."""

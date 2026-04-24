@@ -43,7 +43,7 @@ def get_transactions(type_filter="All", category_filter="All"):
             params.append(category_filter)
             
         query += " ORDER BY date DESC"
-        df = pd.read_sql_query(query, conn, params=params)
+        df = pd.read_sql_query(query, conn, params=tuple(params))
         return df
 
 def get_monthly_data():

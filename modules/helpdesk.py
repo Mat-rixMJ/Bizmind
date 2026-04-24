@@ -16,11 +16,17 @@ def get_helpdesk_summary():
     try:
         total = db.query(Ticket).count()
         open_t = db.query(Ticket).filter(Ticket.status == 'open').count()
-        critical = db.query(Ticket).filter(Ticket.status == 'open', Ticket.priority == 'high').count()
+        in_prog = db.query(Ticket).filter(Ticket.status == 'in-progress').count()
+        critical = db.query(Ticket).filter(Ticket.status != 'resolved', Ticket.priority == 'high').count()
         resolved = db.query(Ticket).filter(Ticket.status == 'resolved').count()
         
         return {
             "total_tickets": total,
+            "open": open_t,
+            "in_progress": in_prog,
+            "high_priority": critical,
+            "resolved": resolved,
+            # backward-compat aliases
             "open_tickets": open_t,
             "critical_tickets": critical,
             "resolved_tickets": resolved
@@ -38,7 +44,7 @@ def get_tickets(search_query=""):
             params.extend([f"%{search_query}%", f"%{search_query}%"])
         query += " ORDER BY CASE priority WHEN 'high' THEN 1 WHEN 'medium' THEN 2 WHEN 'low' THEN 3 END, created_at DESC"
         
-        df = pd.read_sql_query(query, conn, params=params)
+        df = pd.read_sql_query(query, conn, params=tuple(params))
         return df
 
 def generate_ai_ticket_response(title, description):

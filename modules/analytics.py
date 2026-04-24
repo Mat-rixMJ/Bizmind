@@ -23,7 +23,7 @@ def get_sales_data(start_date=None, end_date=None):
             query += " AND s.sale_date <= ?"
             params.append(end_date.strftime("%Y-%m-%d"))
             
-        df = pd.read_sql_query(query, conn, params=params)
+        df = pd.read_sql_query(query, conn, params=tuple(params))
         df['total_revenue'] = df['quantity_sold'] * df['sale_price']
         return df
 

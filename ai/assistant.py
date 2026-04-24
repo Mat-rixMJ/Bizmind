@@ -9,6 +9,8 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5")
 OLLAMA_URL = "http://localhost:11434/api/chat"
 
 from database.db import engine
+from utils.logger import get_logger
+logger = get_logger("ai.assistant")
 
 def execute_read_query(query):
     """Executes a SQL SELECT query dynamically and returns results."""
@@ -85,4 +87,5 @@ def get_assistant_response(user_input, module_name="general", chat_history=None)
                  return "Error getting final response."
         return "Internal system issue with local AI."
     except Exception as e:
+        logger.error(f"AI connection error: {e}")
         return f"AI connection error: {e}"
