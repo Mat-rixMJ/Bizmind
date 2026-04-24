@@ -5,6 +5,10 @@
 *.db
 *.sqlite3
 
+# Log files
+*.log
+bizmind.log
+
 # Python Cache
 __pycache__/
 *.py[cod]

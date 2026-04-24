@@ -8,6 +8,8 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from database.db import SessionLocal, engine
 from database.models import Transaction, TransactionCreate
 from pydantic import ValidationError
+from utils.logger import get_logger
+logger = get_logger("modules.accounting")
 
 def get_accounting_summary():
     db = SessionLocal()
@@ -85,7 +87,7 @@ def add_transaction(date, t_type, category, desc, amount):
         return True
     except Exception as e:
         db.rollback()
-        print(f"Error adding transaction: {e}")
+        logger.error(f"Error adding transaction: {e}")
         return False
     finally:
         db.close()

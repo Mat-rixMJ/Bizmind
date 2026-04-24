@@ -7,6 +7,8 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from database.db import SessionLocal, engine
 from database.models import Inventory, InventoryCreate
 from pydantic import ValidationError
+from utils.logger import get_logger
+logger = get_logger("modules.inventory")
 
 def get_inventory_summary():
     """Returns key metrics for the inventory dashboard using SQLAlchemy."""
@@ -68,7 +70,7 @@ def add_product(name, category, qty, price, reorder_level):
         return True
     except Exception as e:
         db.rollback()
-        print(f"Error adding product: {e}")
+        logger.error(f"Error adding product: {e}")
         return False
     finally:
         db.close()
@@ -88,7 +90,7 @@ def update_stock(product_id, new_quantity):
         return False
     except Exception as e:
         db.rollback()
-        print(f"Error updating stock: {e}")
+        logger.error(f"Error updating stock: {e}")
         return False
     finally:
         db.close()
@@ -105,7 +107,7 @@ def delete_product(product_id):
         return False
     except Exception as e:
         db.rollback()
-        print(f"Error deleting product: {e}")
+        logger.error(f"Error deleting product: {e}")
         return False
     finally:
         db.close()

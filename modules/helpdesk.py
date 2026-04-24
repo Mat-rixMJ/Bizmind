@@ -9,6 +9,8 @@ from database.db import SessionLocal, engine
 from database.models import Ticket, TicketCreate
 from ai.assistant import OLLAMA_URL, OLLAMA_MODEL
 from pydantic import ValidationError
+from utils.logger import get_logger
+logger = get_logger("modules.helpdesk")
 
 def get_helpdesk_summary():
     """Returns key metrics for the helpdesk dashboard via SQLAlchemy."""
@@ -97,7 +99,7 @@ def add_ticket(title, description, priority):
         return True
     except Exception as e:
         db.rollback()
-        print(f"Error adding ticket: {e}")
+        logger.error(f"Error adding ticket: {e}")
         return False
     finally:
         db.close()
@@ -117,7 +119,7 @@ def update_ticket_status(ticket_id, new_status):
         return False
     except Exception as e:
         db.rollback()
-        print(f"Error updating ticket status: {e}")
+        logger.error(f"Error updating ticket status: {e}")
         return False
     finally:
         db.close()
