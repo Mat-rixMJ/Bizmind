@@ -25,67 +25,96 @@ def execute_read_query(query):
 
 def get_assistant_response(user_input, module_name="general", chat_history=None):
     if chat_history is None:
-         chat_history = []
+        chat_history = []
          
     # 1. Ask Ollama to generate a SQL query if needed
     sql_prompt = f"""
-    You are an intelligent business database agent. The user is asking: "{user_input}"
-    Based on the following SQLite schema, write ONE raw SQL 'SELECT' query to answer their question. 
-    If a query isn't needed (e.g. general greeting), just reply 'NO_QUERY'.
-    Only output the pure SQL query or 'NO_QUERY', nothing else.
+    You are a strict SQL-only agent for a SQLite database. 
+    User Question: "{user_input}"
     
-    Schema:
-    CREATE TABLE inventory (id INTEGER, product_name VARCHAR, category VARCHAR, quantity INTEGER, unit_price FLOAT, reorder_level INTEGER);
-    CREATE TABLE transactions (id INTEGER, date VARCHAR, type VARCHAR, category VARCHAR, description VARCHAR, amount FLOAT);
-    CREATE TABLE tickets (id INTEGER, title VARCHAR, description VARCHAR, priority VARCHAR, status VARCHAR);
-    CREATE TABLE sales (id INTEGER, product_name VARCHAR, quantity_sold INTEGER, sale_price FLOAT, sale_date VARCHAR);
+    TABLES:
+    - inventory (id, product_name, category, quantity, unit_price, reorder_level)
+    - transactions (id, date, type, category, description, amount)
+    - tickets (id, title, description, priority, status)
+    
+    KNOWN CATEGORIES: Electronics, Furniture, Office Supplies
+    
+    QUERY RULES:
+    1. Output ONLY a valid SQLite SELECT query.
+    2. STRING MATCHING: SQLite is CASE-SENSITIVE. Use `LIKE` for text (e.g., `WHERE category LIKE 'furniture'`).
+    3. EXAMPLES:
+       - "stock value": SELECT category, SUM(quantity * unit_price) as total_val FROM inventory GROUP BY category;
+       - "total revenue": SELECT SUM(amount) FROM transactions WHERE type LIKE 'income';
+    4. GREETINGS: If just 'hi', output 'NO_QUERY'.
     """
     
     payload_sql = {
         "model": OLLAMA_MODEL,
         "messages": [{"role": "user", "content": sql_prompt}],
-        "stream": False
+        "stream": False,
+        "options": {"temperature": 0}
     }
     
     try:
         resp = requests.post(OLLAMA_URL, json=payload_sql, timeout=30)
+        query = ""
         if resp.status_code == 200:
-            query = resp.json().get("message", {}).get("content", "").strip()
-            # Clean up markdown if model outputs it
-            if query.startswith("```sql"): query = query[6:]
-            if query.startswith("```"): query = query[3:]
-            if query.endswith("```"): query = query[:-3]
-            query = query.strip()
+            query_raw = resp.json().get("message", {}).get("content", "").strip()
+            # Clean up: strip markdown, extra tags, and everything after the first ';'
+            query = query_raw.replace("```sql", "").replace("```", "").strip()
+            if ";" in query: query = query.split(";")[0] + ";"
             
-            db_context = "No database data needed."
-            if "NO_QUERY" not in query and query.upper().startswith("SELECT"):
-                db_context = execute_read_query(query)
+            db_context = ""
+            # Better check for SELECT in any part of the first 20 chars
+            is_select = "SELECT" in query[:20].upper()
             
-            # 2. Final response generation
+            if "NO_QUERY" not in query.upper() and is_select:
+                try:
+                    with engine.connect() as conn:
+                        df = pd.read_sql_query(query, conn)
+                        if df.empty:
+                            db_context = "The database search returned zero results."
+                        else:
+                            # Using markdown table for better model grounding
+                            db_context = "### Database Results:\n" + df.to_markdown(index=False)
+                    logger.info(f"AI Query Success: {query}")
+                except Exception as e:
+                    db_context = f"Database Error: {e}"
+                    logger.error(f"AI Query Failed: {e}")
+            else:
+                db_context = "General conversational query. No database lookup performed."
+
+            # 2. Final response generation - THE GROUNDING STEP
             final_prompt = f"""
-            You are BizMind, the AI assistant for business operations.
-            The user asked: "{user_input}"
+            You are BizMind, a professional business analyst assistant.
+            User Question: "{user_input}"
             
-            Here is the live data retrieved from the database to answer their question:
+            REFERENCE DATA FROM DATABASE:
             {db_context}
             
-            Provide a helpful, precise, and conversational answer based only on this data. Do not show the SQL query to the user.
+            STRICT INSTRUCTIONS:
+            1. Use ONLY the 'REFERENCE DATA' provided above to answer.
+            2. CURRENCY: Always use the Rupee symbol (₹) for currency. Never use dollars ($).
+            3. If the data indicates 'zero results' or an Error, state that you couldn't find the records.
+            4. NEVER make up data. If a specific product isn't in 'REFERENCE DATA', it doesn't exist.
+            5. Keep your answer professional and concise.
             """
             
-            messages = [{"role": "system", "content": "You are BizMind."}] + chat_history + [{"role": "user", "content": final_prompt}]
+            messages = [{"role": "system", "content": "You are a grounded business assistant."}] + chat_history + [{"role": "user", "content": final_prompt}]
             
             payload_final = {
                 "model": OLLAMA_MODEL,
                 "messages": messages,
-                "stream": False
+                "stream": False,
+                "options": {"temperature": 0.1}
             }
             res_final = requests.post(OLLAMA_URL, json=payload_final, timeout=30)
             if res_final.status_code == 200:
                 answer = res_final.json().get("message", {}).get("content", "")
                 return answer.strip()
             else:
-                 return "Error getting final response."
-        return "Internal system issue with local AI."
+                return "I'm having trouble reflecting on the data right now."
+        return "The AI system is temporarily unavailable."
     except Exception as e:
         logger.error(f"AI connection error: {e}")
-        return f"AI connection error: {e}"
+        return "I encountered a system error while processing the AI response."
