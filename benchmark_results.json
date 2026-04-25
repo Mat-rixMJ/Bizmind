@@ -1,0 +1,27 @@
+{
+  "total": 10,
+  "success": 6,
+  "failed": 4,
+  "errors": [
+    {
+      "id": 2,
+      "question": "list suppliers for this week with highest value",
+      "response": "I couldn't find the records for suppliers with the highest value for this week in the provided reference data."
+    },
+    {
+      "id": 3,
+      "question": "show invoices for last week below 500",
+      "response": "I couldn't find any invoices for the last week below \u20b9500 in the provided reference data."
+    },
+    {
+      "id": 5,
+      "question": "find profit for this month less than 5 items",
+      "response": "I couldn't find records for profit for this month less than 5 items in the provided reference data."
+    },
+    {
+      "id": 7,
+      "question": "show suppliers for this month completed",
+      "response": "I couldn't find the records for suppliers from this month completed in the reference data provided."
+    }
+  ]
+}

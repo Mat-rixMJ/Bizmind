@@ -30,13 +30,13 @@ if not exist "database\bizmind.db" (
     echo  [OK] Database found.
 )
 
-:: Launch Streamlit
+:: Launch Flask Server
 echo [3/3] Starting BizMind application...
 echo.
-echo  App will open at: http://localhost:8501
+echo  App will open at: http://localhost:5000
 echo  Default login - admin / admin123
 echo.
-start "" http://localhost:8501
-python -m streamlit run app.py --server.port 8501
+start "" http://localhost:5000
+python server.py
 
 pause

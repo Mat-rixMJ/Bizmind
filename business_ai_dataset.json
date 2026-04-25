@@ -1,0 +1,4402 @@
+[
+  {
+    "id": 1,
+    "question": "calculate inventry for yesterday pending"
+  },
+  {
+    "id": 2,
+    "question": "list suppliers for this week with highest value"
+  },
+  {
+    "id": 3,
+    "question": "show invoices for last week below 500"
+  },
+  {
+    "id": 4,
+    "question": "give inventory for yesterday below 500"
+  },
+  {
+    "id": 5,
+    "question": "find profit for this month less than 5 items"
+  },
+  {
+    "id": 6,
+    "question": "tell me stock for last month above 1000"
+  },
+  {
+    "id": 7,
+    "question": "show suppliers for this month completed"
+  },
+  {
+    "id": 8,
+    "question": "show invoices for yesterday pending"
+  },
+  {
+    "id": 9,
+    "question": "give expenses for last 3 months cancelled"
+  },
+  {
+    "id": 10,
+    "question": "display revenue for this year above 1000"
+  },
+  {
+    "id": 11,
+    "question": "find expenses for yesterday with highest value"
+  },
+  {
+    "id": 12,
+    "question": "tell me invoices for this week with lowest value"
+  },
+  {
+    "id": 13,
+    "question": "show revenue for this year cancelled"
+  },
+  {
+    "id": 14,
+    "question": "calculate expences for this month below 500"
+  },
+  {
+    "id": 15,
+    "question": "give returns for last week above 1000"
+  },
+  {
+    "id": 16,
+    "question": "tell me sales for last week greater than 10 units"
+  },
+  {
+    "id": 17,
+    "question": "show inventory for today below 500"
+  },
+  {
+    "id": 18,
+    "question": "find stock for last month less than 5 items"
+  },
+  {
+    "id": 19,
+    "question": "display revenue for yesterday with lowest value"
+  },
+  {
+    "id": 20,
+    "question": "get stock for last 3 months with lowest value"
+  },
+  {
+    "id": 21,
+    "question": "show invoices for this month less than 5 items"
+  },
+  {
+    "id": 22,
+    "question": "show invoices for this year cancelled"
+  },
+  {
+    "id": 23,
+    "question": "show suppliers for last week greater than 10 units"
+  },
+  {
+    "id": 24,
+    "question": "display invoices for last 3 months above 1000"
+  },
+  {
+    "id": 25,
+    "question": "list orders for last 3 months greater than 10 units"
+  },
+  {
+    "id": 26,
+    "question": "list sales for this month less than 5 items"
+  },
+  {
+    "id": 27,
+    "question": "list returns for last 3 months completed"
+  },
+  {
+    "id": 28,
+    "question": "list stock for last 3 months completed"
+  },
+  {
+    "id": 29,
+    "question": "get revenue for this year below 500"
+  },
+  {
+    "id": 30,
+    "question": "tell me stock for last month less than 5 items"
+  },
+  {
+    "id": 31,
+    "question": "give orders for last month below 500"
+  },
+  {
+    "id": 32,
+    "question": "find invoices for last week pending"
+  },
+  {
+    "id": 33,
+    "question": "tell me suppliers for this month above 1000"
+  },
+  {
+    "id": 34,
+    "question": "calculate sales for last week less than 5 items"
+  },
+  {
+    "id": 35,
+    "question": "give suppliers for this year below 500"
+  },
+  {
+    "id": 36,
+    "question": "list ordrs for yesterday with lowest value"
+  },
+  {
+    "id": 37,
+    "question": "get revenue for last month cancelled"
+  },
+  {
+    "id": 38,
+    "question": "give inventory for this year completed"
+  },
+  {
+    "id": 39,
+    "question": "show suppliers for today above 1000"
+  },
+  {
+    "id": 40,
+    "question": "show orders for yesterday with lowest value"
+  },
+  {
+    "id": 41,
+    "question": "list sale for this year less than 5 items"
+  },
+  {
+    "id": 42,
+    "question": "tell me customers for last month with highest value"
+  },
+  {
+    "id": 43,
+    "question": "display sales for last 3 months cancelled"
+  },
+  {
+    "id": 44,
+    "question": "list orders for last month below 500"
+  },
+  {
+    "id": 45,
+    "question": "show orders for last week with lowest value"
+  },
+  {
+    "id": 46,
+    "question": "get stock for this year pending"
+  },
+  {
+    "id": 47,
+    "question": "tell me suppliers for last 3 months completed"
+  },
+  {
+    "id": 48,
+    "question": "give returns for last week less than 5 items"
+  },
+  {
+    "id": 49,
+    "question": "find revenue for yesterday with highest value"
+  },
+  {
+    "id": 50,
+    "question": "tell me profit for this week below 500"
+  },
+  {
+    "id": 51,
+    "question": "get returns for this month below 500"
+  },
+  {
+    "id": 52,
+    "question": "tell me revenue for last week cancelled"
+  },
+  {
+    "id": 53,
+    "question": "display stock for last 3 months greater than 10 units"
+  },
+  {
+    "id": 54,
+    "question": "show inventory for last 3 months pending"
+  },
+  {
+    "id": 55,
+    "question": "list expenses for this week with lowest value"
+  },
+  {
+    "id": 56,
+    "question": "display inventory for this year with lowest value"
+  },
+  {
+    "id": 57,
+    "question": "list expns for this week with lowest value"
+  },
+  {
+    "id": 58,
+    "question": "display suppliers for last week completed"
+  },
+  {
+    "id": 59,
+    "question": "list suppliers for last month with lowest value"
+  },
+  {
+    "id": 60,
+    "question": "give orders for this year completed"
+  },
+  {
+    "id": 61,
+    "question": "find returns for this month pending"
+  },
+  {
+    "id": 62,
+    "question": "show profet for last 3 months less than 5 items"
+  },
+  {
+    "id": 63,
+    "question": "list proft for yesterday below 500"
+  },
+  {
+    "id": 64,
+    "question": "tell me profet for last 3 months with lowest value"
+  },
+  {
+    "id": 65,
+    "question": "calculate inventory for last 3 months less than 5 items"
+  },
+  {
+    "id": 66,
+    "question": "calculate revenue for today cancelled"
+  },
+  {
+    "id": 67,
+    "question": "display orders for today cancelled"
+  },
+  {
+    "id": 68,
+    "question": "get revenue for last week greater than 10 units"
+  },
+  {
+    "id": 69,
+    "question": "show sales for this week greater than 10 units"
+  },
+  {
+    "id": 70,
+    "question": "find returns for yesterday greater than 10 units"
+  },
+  {
+    "id": 71,
+    "question": "give customers for this year completed"
+  },
+  {
+    "id": 72,
+    "question": "calculate invoices for this month above 1000"
+  },
+  {
+    "id": 73,
+    "question": "give revenue for last week pending"
+  },
+  {
+    "id": 74,
+    "question": "display suppliers for last 3 months pending"
+  },
+  {
+    "id": 75,
+    "question": "get sales for last 3 months completed"
+  },
+  {
+    "id": 76,
+    "question": "give returns for yesterday below 500"
+  },
+  {
+    "id": 77,
+    "question": "find sales for today below 500"
+  },
+  {
+    "id": 78,
+    "question": "show stok for last week above 1000"
+  },
+  {
+    "id": 79,
+    "question": "give sales for last 3 months pending"
+  },
+  {
+    "id": 80,
+    "question": "list invntory for this week with highest value"
+  },
+  {
+    "id": 81,
+    "question": "display suppliers for last 3 months completed"
+  },
+  {
+    "id": 82,
+    "question": "display sales for this month above 1000"
+  },
+  {
+    "id": 83,
+    "question": "list customers for yesterday completed"
+  },
+  {
+    "id": 84,
+    "question": "find sales for yesterday with lowest value"
+  },
+  {
+    "id": 85,
+    "question": "calculate revenue for last month above 1000"
+  },
+  {
+    "id": 86,
+    "question": "get inventry for yesterday below 500"
+  },
+  {
+    "id": 87,
+    "question": "get orders for last week pending"
+  },
+  {
+    "id": 88,
+    "question": "get invoices for this year pending"
+  },
+  {
+    "id": 89,
+    "question": "list orders for yesterday completed"
+  },
+  {
+    "id": 90,
+    "question": "tell me customers for last month less than 5 items"
+  },
+  {
+    "id": 91,
+    "question": "give profit for today less than 5 items"
+  },
+  {
+    "id": 92,
+    "question": "find invoices for this week less than 5 items"
+  },
+  {
+    "id": 93,
+    "question": "show stok for last 3 months cancelled"
+  },
+  {
+    "id": 94,
+    "question": "show invoices for last month below 500"
+  },
+  {
+    "id": 95,
+    "question": "find invoices for last month less than 5 items"
+  },
+  {
+    "id": 96,
+    "question": "find customers for this month above 1000"
+  },
+  {
+    "id": 97,
+    "question": "find invoices for last 3 months with lowest value"
+  },
+  {
+    "id": 98,
+    "question": "calculate returns for this month less than 5 items"
+  },
+  {
+    "id": 99,
+    "question": "show invoices for yesterday less than 5 items"
+  },
+  {
+    "id": 100,
+    "question": "calculate invoices for yesterday less than 5 items"
+  },
+  {
+    "id": 101,
+    "question": "display sale for this month below 500"
+  },
+  {
+    "id": 102,
+    "question": "give stock for last month completed"
+  },
+  {
+    "id": 103,
+    "question": "calculate inventory for last month above 1000"
+  },
+  {
+    "id": 104,
+    "question": "show returns for this month with highest value"
+  },
+  {
+    "id": 105,
+    "question": "show returns for this year greater than 10 units"
+  },
+  {
+    "id": 106,
+    "question": "show revenue for this month completed"
+  },
+  {
+    "id": 107,
+    "question": "list expenses for yesterday below 500"
+  },
+  {
+    "id": 108,
+    "question": "display profit for last week cancelled"
+  },
+  {
+    "id": 109,
+    "question": "tell me expenses for this week cancelled"
+  },
+  {
+    "id": 110,
+    "question": "list inventory for this year completed"
+  },
+  {
+    "id": 111,
+    "question": "display stock for this month completed"
+  },
+  {
+    "id": 112,
+    "question": "list profit for today with highest value"
+  },
+  {
+    "id": 113,
+    "question": "tell me customers for last 3 months with highest value"
+  },
+  {
+    "id": 114,
+    "question": "tell me returns for last 3 months below 500"
+  },
+  {
+    "id": 115,
+    "question": "tell me expenses for today completed"
+  },
+  {
+    "id": 116,
+    "question": "list revenue for today above 1000"
+  },
+  {
+    "id": 117,
+    "question": "calculate customers for today with lowest value"
+  },
+  {
+    "id": 118,
+    "question": "tell me inventory for last week below 500"
+  },
+  {
+    "id": 119,
+    "question": "show invoices for last month with highest value"
+  },
+  {
+    "id": 120,
+    "question": "list invoices for this year greater than 10 units"
+  },
+  {
+    "id": 121,
+    "question": "calculate returns for this week cancelled"
+  },
+  {
+    "id": 122,
+    "question": "list orders for last 3 months with lowest value"
+  },
+  {
+    "id": 123,
+    "question": "tell me customers for last month below 500"
+  },
+  {
+    "id": 124,
+    "question": "calculate stock for last 3 months below 500"
+  },
+  {
+    "id": 125,
+    "question": "give invntory for last 3 months above 1000"
+  },
+  {
+    "id": 126,
+    "question": "show returns for this month with highest value"
+  },
+  {
+    "id": 127,
+    "question": "give customers for yesterday above 1000"
+  },
+  {
+    "id": 128,
+    "question": "list custmers for this year with highest value"
+  },
+  {
+    "id": 129,
+    "question": "find revenue for last month pending"
+  },
+  {
+    "id": 130,
+    "question": "tell me inventory for last week pending"
+  },
+  {
+    "id": 131,
+    "question": "give profit for this year with lowest value"
+  },
+  {
+    "id": 132,
+    "question": "get profit for this month above 1000"
+  },
+  {
+    "id": 133,
+    "question": "list custmers for last 3 months cancelled"
+  },
+  {
+    "id": 134,
+    "question": "calculate inventory for this month pending"
+  },
+  {
+    "id": 135,
+    "question": "tell me customers for this year pending"
+  },
+  {
+    "id": 136,
+    "question": "calculate stock for last week greater than 10 units"
+  },
+  {
+    "id": 137,
+    "question": "show sales for this year below 500"
+  },
+  {
+    "id": 138,
+    "question": "find returns for yesterday above 1000"
+  },
+  {
+    "id": 139,
+    "question": "find customers for today with highest value"
+  },
+  {
+    "id": 140,
+    "question": "list returns for last month with highest value"
+  },
+  {
+    "id": 141,
+    "question": "get profit for this month with highest value"
+  },
+  {
+    "id": 142,
+    "question": "tell me invntory for this month below 500"
+  },
+  {
+    "id": 143,
+    "question": "show customers for yesterday above 1000"
+  },
+  {
+    "id": 144,
+    "question": "calculate returns for today above 1000"
+  },
+  {
+    "id": 145,
+    "question": "get sales for last month completed"
+  },
+  {
+    "id": 146,
+    "question": "tell me stock for yesterday below 500"
+  },
+  {
+    "id": 147,
+    "question": "show returns for this week with highest value"
+  },
+  {
+    "id": 148,
+    "question": "show stock for last month cancelled"
+  },
+  {
+    "id": 149,
+    "question": "get expenses for this week pending"
+  },
+  {
+    "id": 150,
+    "question": "list customers for last week with highest value"
+  },
+  {
+    "id": 151,
+    "question": "list suppliers for last month above 1000"
+  },
+  {
+    "id": 152,
+    "question": "get orders for this year greater than 10 units"
+  },
+  {
+    "id": 153,
+    "question": "get profit for last month with lowest value"
+  },
+  {
+    "id": 154,
+    "question": "calculate revenue for last 3 months cancelled"
+  },
+  {
+    "id": 155,
+    "question": "find suppliers for last 3 months above 1000"
+  },
+  {
+    "id": 156,
+    "question": "list inventory for last 3 months less than 5 items"
+  },
+  {
+    "id": 157,
+    "question": "find stock for yesterday less than 5 items"
+  },
+  {
+    "id": 158,
+    "question": "display inventory for this week below 500"
+  },
+  {
+    "id": 159,
+    "question": "calculate expenses for last month pending"
+  },
+  {
+    "id": 160,
+    "question": "show sales for last week with lowest value"
+  },
+  {
+    "id": 161,
+    "question": "find inventory for this month with highest value"
+  },
+  {
+    "id": 162,
+    "question": "find orders for today with lowest value"
+  },
+  {
+    "id": 163,
+    "question": "display returns for last 3 months with lowest value"
+  },
+  {
+    "id": 164,
+    "question": "display returns for this week pending"
+  },
+  {
+    "id": 165,
+    "question": "give inventory for this week greater than 10 units"
+  },
+  {
+    "id": 166,
+    "question": "list stock for yesterday above 1000"
+  },
+  {
+    "id": 167,
+    "question": "find revenue for last 3 months greater than 10 units"
+  },
+  {
+    "id": 168,
+    "question": "get returns for yesterday above 1000"
+  },
+  {
+    "id": 169,
+    "question": "get inventory for last 3 months above 1000"
+  },
+  {
+    "id": 170,
+    "question": "tell me customers for this month less than 5 items"
+  },
+  {
+    "id": 171,
+    "question": "find returns for this month with lowest value"
+  },
+  {
+    "id": 172,
+    "question": "get revenue for last week completed"
+  },
+  {
+    "id": 173,
+    "question": "tell me expenses for last month with highest value"
+  },
+  {
+    "id": 174,
+    "question": "give invoices for last week cancelled"
+  },
+  {
+    "id": 175,
+    "question": "show sale for last week completed"
+  },
+  {
+    "id": 176,
+    "question": "show expns for this month greater than 10 units"
+  },
+  {
+    "id": 177,
+    "question": "calculate expenses for this month above 1000"
+  },
+  {
+    "id": 178,
+    "question": "display customers for last month below 500"
+  },
+  {
+    "id": 179,
+    "question": "find inventory for last month with highest value"
+  },
+  {
+    "id": 180,
+    "question": "list expences for this year cancelled"
+  },
+  {
+    "id": 181,
+    "question": "give stock for yesterday completed"
+  },
+  {
+    "id": 182,
+    "question": "give inventory for this year cancelled"
+  },
+  {
+    "id": 183,
+    "question": "calculate profit for this year cancelled"
+  },
+  {
+    "id": 184,
+    "question": "get expenses for yesterday with highest value"
+  },
+  {
+    "id": 185,
+    "question": "give returns for last month less than 5 items"
+  },
+  {
+    "id": 186,
+    "question": "tell me profit for yesterday completed"
+  },
+  {
+    "id": 187,
+    "question": "tell me stock for last week less than 5 items"
+  },
+  {
+    "id": 188,
+    "question": "tell me sales for this year below 500"
+  },
+  {
+    "id": 189,
+    "question": "calculate profit for this week less than 5 items"
+  },
+  {
+    "id": 190,
+    "question": "give orders for today completed"
+  },
+  {
+    "id": 191,
+    "question": "calculate suppliers for last month completed"
+  },
+  {
+    "id": 192,
+    "question": "give ordrs for this week pending"
+  },
+  {
+    "id": 193,
+    "question": "display stock for this month cancelled"
+  },
+  {
+    "id": 194,
+    "question": "give stok for yesterday with lowest value"
+  },
+  {
+    "id": 195,
+    "question": "get returns for this week above 1000"
+  },
+  {
+    "id": 196,
+    "question": "show revenue for today completed"
+  },
+  {
+    "id": 197,
+    "question": "show expenses for yesterday below 500"
+  },
+  {
+    "id": 198,
+    "question": "tell me revenue for last 3 months with lowest value"
+  },
+  {
+    "id": 199,
+    "question": "calculate expns for last 3 months with highest value"
+  },
+  {
+    "id": 200,
+    "question": "get expenses for this month greater than 10 units"
+  },
+  {
+    "id": 201,
+    "question": "calculate profit for this week pending"
+  },
+  {
+    "id": 202,
+    "question": "give invoices for today greater than 10 units"
+  },
+  {
+    "id": 203,
+    "question": "display invoices for this year below 500"
+  },
+  {
+    "id": 204,
+    "question": "show revenue for this year with lowest value"
+  },
+  {
+    "id": 205,
+    "question": "calculate returns for this month below 500"
+  },
+  {
+    "id": 206,
+    "question": "get customers for this month below 500"
+  },
+  {
+    "id": 207,
+    "question": "get returns for this week pending"
+  },
+  {
+    "id": 208,
+    "question": "tell me expenses for this week below 500"
+  },
+  {
+    "id": 209,
+    "question": "calculate inventory for last month with lowest value"
+  },
+  {
+    "id": 210,
+    "question": "show suppliers for this week greater than 10 units"
+  },
+  {
+    "id": 211,
+    "question": "display expenses for last month pending"
+  },
+  {
+    "id": 212,
+    "question": "get customers for this week above 1000"
+  },
+  {
+    "id": 213,
+    "question": "get suppliers for this year above 1000"
+  },
+  {
+    "id": 214,
+    "question": "give invoices for today below 500"
+  },
+  {
+    "id": 215,
+    "question": "tell me inventory for this week below 500"
+  },
+  {
+    "id": 216,
+    "question": "find inventory for last month greater than 10 units"
+  },
+  {
+    "id": 217,
+    "question": "display orders for this month cancelled"
+  },
+  {
+    "id": 218,
+    "question": "calculate invoices for this week with lowest value"
+  },
+  {
+    "id": 219,
+    "question": "list orders for this month less than 5 items"
+  },
+  {
+    "id": 220,
+    "question": "calculate suppliers for this month cancelled"
+  },
+  {
+    "id": 221,
+    "question": "give returns for today cancelled"
+  },
+  {
+    "id": 222,
+    "question": "get expenses for last month completed"
+  },
+  {
+    "id": 223,
+    "question": "get stock for today completed"
+  },
+  {
+    "id": 224,
+    "question": "get suppliers for last month below 500"
+  },
+  {
+    "id": 225,
+    "question": "calculate inventory for this year less than 5 items"
+  },
+  {
+    "id": 226,
+    "question": "tell me stock for this week greater than 10 units"
+  },
+  {
+    "id": 227,
+    "question": "get returns for this year completed"
+  },
+  {
+    "id": 228,
+    "question": "tell me stok for this week greater than 10 units"
+  },
+  {
+    "id": 229,
+    "question": "display expenses for yesterday pending"
+  },
+  {
+    "id": 230,
+    "question": "get orders for this month completed"
+  },
+  {
+    "id": 231,
+    "question": "tell me profit for last month less than 5 items"
+  },
+  {
+    "id": 232,
+    "question": "display invoices for this week with highest value"
+  },
+  {
+    "id": 233,
+    "question": "calculate profit for last week below 500"
+  },
+  {
+    "id": 234,
+    "question": "display returns for this year less than 5 items"
+  },
+  {
+    "id": 235,
+    "question": "list returns for today cancelled"
+  },
+  {
+    "id": 236,
+    "question": "list expenses for last week with lowest value"
+  },
+  {
+    "id": 237,
+    "question": "tell me custmers for yesterday completed"
+  },
+  {
+    "id": 238,
+    "question": "tell me revenue for this month below 500"
+  },
+  {
+    "id": 239,
+    "question": "list invoices for last 3 months with lowest value"
+  },
+  {
+    "id": 240,
+    "question": "list stock for this year below 500"
+  },
+  {
+    "id": 241,
+    "question": "display sales for last week with highest value"
+  },
+  {
+    "id": 242,
+    "question": "get stock for last 3 months pending"
+  },
+  {
+    "id": 243,
+    "question": "give returns for last month pending"
+  },
+  {
+    "id": 244,
+    "question": "give saels for last 3 months completed"
+  },
+  {
+    "id": 245,
+    "question": "show proft for this month with highest value"
+  },
+  {
+    "id": 246,
+    "question": "get profet for today with highest value"
+  },
+  {
+    "id": 247,
+    "question": "get custmr for yesterday cancelled"
+  },
+  {
+    "id": 248,
+    "question": "display returns for last month completed"
+  },
+  {
+    "id": 249,
+    "question": "tell me revenue for last month cancelled"
+  },
+  {
+    "id": 250,
+    "question": "show sales for today less than 5 items"
+  },
+  {
+    "id": 251,
+    "question": "tell me returns for last month less than 5 items"
+  },
+  {
+    "id": 252,
+    "question": "give sales for yesterday below 500"
+  },
+  {
+    "id": 253,
+    "question": "list expenses for this week completed"
+  },
+  {
+    "id": 254,
+    "question": "get stock for today with highest value"
+  },
+  {
+    "id": 255,
+    "question": "display stock for today completed"
+  },
+  {
+    "id": 256,
+    "question": "get returns for last 3 months greater than 10 units"
+  },
+  {
+    "id": 257,
+    "question": "tell me invoices for last week below 500"
+  },
+  {
+    "id": 258,
+    "question": "display invoices for today above 1000"
+  },
+  {
+    "id": 259,
+    "question": "tell me sales for this year above 1000"
+  },
+  {
+    "id": 260,
+    "question": "get suppliers for yesterday greater than 10 units"
+  },
+  {
+    "id": 261,
+    "question": "display customers for this month less than 5 items"
+  },
+  {
+    "id": 262,
+    "question": "display stock for yesterday completed"
+  },
+  {
+    "id": 263,
+    "question": "calculate saels for this week with highest value"
+  },
+  {
+    "id": 264,
+    "question": "give expenses for this year greater than 10 units"
+  },
+  {
+    "id": 265,
+    "question": "find sales for last 3 months below 500"
+  },
+  {
+    "id": 266,
+    "question": "show stock for this week with lowest value"
+  },
+  {
+    "id": 267,
+    "question": "tell me profit for last week below 500"
+  },
+  {
+    "id": 268,
+    "question": "display revenue for today below 500"
+  },
+  {
+    "id": 269,
+    "question": "tell me customers for today pending"
+  },
+  {
+    "id": 270,
+    "question": "list profit for this month pending"
+  },
+  {
+    "id": 271,
+    "question": "give returns for last 3 months above 1000"
+  },
+  {
+    "id": 272,
+    "question": "display customers for last month with lowest value"
+  },
+  {
+    "id": 273,
+    "question": "list revenue for last month below 500"
+  },
+  {
+    "id": 274,
+    "question": "get suppliers for last month pending"
+  },
+  {
+    "id": 275,
+    "question": "give inventory for last week pending"
+  },
+  {
+    "id": 276,
+    "question": "get stock for today below 500"
+  },
+  {
+    "id": 277,
+    "question": "tell me stock for today completed"
+  },
+  {
+    "id": 278,
+    "question": "show suppliers for last 3 months above 1000"
+  },
+  {
+    "id": 279,
+    "question": "show invoices for this week with highest value"
+  },
+  {
+    "id": 280,
+    "question": "calculate inventory for yesterday above 1000"
+  },
+  {
+    "id": 281,
+    "question": "tell me customers for last month with lowest value"
+  },
+  {
+    "id": 282,
+    "question": "calculate sales for last month below 500"
+  },
+  {
+    "id": 283,
+    "question": "find orders for this month cancelled"
+  },
+  {
+    "id": 284,
+    "question": "find expenses for last week with highest value"
+  },
+  {
+    "id": 285,
+    "question": "find profet for this week less than 5 items"
+  },
+  {
+    "id": 286,
+    "question": "show orders for last week pending"
+  },
+  {
+    "id": 287,
+    "question": "display returns for last month pending"
+  },
+  {
+    "id": 288,
+    "question": "display invoices for this week completed"
+  },
+  {
+    "id": 289,
+    "question": "tell me profit for this week below 500"
+  },
+  {
+    "id": 290,
+    "question": "list invoices for last week completed"
+  },
+  {
+    "id": 291,
+    "question": "display suppliers for this month cancelled"
+  },
+  {
+    "id": 292,
+    "question": "give profit for this week less than 5 items"
+  },
+  {
+    "id": 293,
+    "question": "list invoices for this year greater than 10 units"
+  },
+  {
+    "id": 294,
+    "question": "give returns for last 3 months cancelled"
+  },
+  {
+    "id": 295,
+    "question": "get saels for last week greater than 10 units"
+  },
+  {
+    "id": 296,
+    "question": "get invoices for yesterday above 1000"
+  },
+  {
+    "id": 297,
+    "question": "calculate sales for this year below 500"
+  },
+  {
+    "id": 298,
+    "question": "calculate sales for last 3 months less than 5 items"
+  },
+  {
+    "id": 299,
+    "question": "calculate orders for this year below 500"
+  },
+  {
+    "id": 300,
+    "question": "show revenue for last 3 months less than 5 items"
+  },
+  {
+    "id": 301,
+    "question": "list expns for last week cancelled"
+  },
+  {
+    "id": 302,
+    "question": "get sales for last month above 1000"
+  },
+  {
+    "id": 303,
+    "question": "tell me revenue for last week with highest value"
+  },
+  {
+    "id": 304,
+    "question": "calculate orders for this month below 500"
+  },
+  {
+    "id": 305,
+    "question": "calculate invoices for this week with highest value"
+  },
+  {
+    "id": 306,
+    "question": "give returns for last 3 months above 1000"
+  },
+  {
+    "id": 307,
+    "question": "give expenses for this week cancelled"
+  },
+  {
+    "id": 308,
+    "question": "give expenses for today pending"
+  },
+  {
+    "id": 309,
+    "question": "show returns for this week completed"
+  },
+  {
+    "id": 310,
+    "question": "calculate profit for this year less than 5 items"
+  },
+  {
+    "id": 311,
+    "question": "show invoices for last 3 months completed"
+  },
+  {
+    "id": 312,
+    "question": "show orders for this month greater than 10 units"
+  },
+  {
+    "id": 313,
+    "question": "list customers for this week completed"
+  },
+  {
+    "id": 314,
+    "question": "list sales for this week completed"
+  },
+  {
+    "id": 315,
+    "question": "show profet for last week with highest value"
+  },
+  {
+    "id": 316,
+    "question": "calculate customers for last week above 1000"
+  },
+  {
+    "id": 317,
+    "question": "tell me invoices for last month less than 5 items"
+  },
+  {
+    "id": 318,
+    "question": "show profit for last week with highest value"
+  },
+  {
+    "id": 319,
+    "question": "get customers for last 3 months with highest value"
+  },
+  {
+    "id": 320,
+    "question": "tell me customers for last month cancelled"
+  },
+  {
+    "id": 321,
+    "question": "give suppliers for yesterday above 1000"
+  },
+  {
+    "id": 322,
+    "question": "display ordrs for this month with lowest value"
+  },
+  {
+    "id": 323,
+    "question": "find revenue for last 3 months above 1000"
+  },
+  {
+    "id": 324,
+    "question": "list odrs for this month pending"
+  },
+  {
+    "id": 325,
+    "question": "calculate expenses for last week cancelled"
+  },
+  {
+    "id": 326,
+    "question": "list profit for this month pending"
+  },
+  {
+    "id": 327,
+    "question": "find suppliers for last week pending"
+  },
+  {
+    "id": 328,
+    "question": "display invoices for this year with lowest value"
+  },
+  {
+    "id": 329,
+    "question": "show suppliers for this year below 500"
+  },
+  {
+    "id": 330,
+    "question": "give customers for this year with lowest value"
+  },
+  {
+    "id": 331,
+    "question": "list revenue for last 3 months above 1000"
+  },
+  {
+    "id": 332,
+    "question": "find inventory for this week completed"
+  },
+  {
+    "id": 333,
+    "question": "tell me suppliers for yesterday less than 5 items"
+  },
+  {
+    "id": 334,
+    "question": "show revenue for this year less than 5 items"
+  },
+  {
+    "id": 335,
+    "question": "list expenses for this month pending"
+  },
+  {
+    "id": 336,
+    "question": "tell me suppliers for this week with highest value"
+  },
+  {
+    "id": 337,
+    "question": "calculate invoices for this year with lowest value"
+  },
+  {
+    "id": 338,
+    "question": "give inventory for today above 1000"
+  },
+  {
+    "id": 339,
+    "question": "list revenue for this year less than 5 items"
+  },
+  {
+    "id": 340,
+    "question": "show suppliers for last 3 months less than 5 items"
+  },
+  {
+    "id": 341,
+    "question": "get sales for last 3 months with lowest value"
+  },
+  {
+    "id": 342,
+    "question": "calculate inventory for last month pending"
+  },
+  {
+    "id": 343,
+    "question": "list profit for last week with highest value"
+  },
+  {
+    "id": 344,
+    "question": "find expenses for this month below 500"
+  },
+  {
+    "id": 345,
+    "question": "tell me revenue for last week cancelled"
+  },
+  {
+    "id": 346,
+    "question": "list custmr for yesterday below 500"
+  },
+  {
+    "id": 347,
+    "question": "calculate profit for this week pending"
+  },
+  {
+    "id": 348,
+    "question": "tell me suppliers for today with lowest value"
+  },
+  {
+    "id": 349,
+    "question": "list revenue for last month cancelled"
+  },
+  {
+    "id": 350,
+    "question": "give returns for today cancelled"
+  },
+  {
+    "id": 351,
+    "question": "find suppliers for last 3 months greater than 10 units"
+  },
+  {
+    "id": 352,
+    "question": "show customers for this year less than 5 items"
+  },
+  {
+    "id": 353,
+    "question": "find stock for yesterday completed"
+  },
+  {
+    "id": 354,
+    "question": "get expenses for this year with lowest value"
+  },
+  {
+    "id": 355,
+    "question": "show ordrs for last 3 months cancelled"
+  },
+  {
+    "id": 356,
+    "question": "get revenue for last week with highest value"
+  },
+  {
+    "id": 357,
+    "question": "find profit for this month with lowest value"
+  },
+  {
+    "id": 358,
+    "question": "get inventory for this week with lowest value"
+  },
+  {
+    "id": 359,
+    "question": "find inventory for last week above 1000"
+  },
+  {
+    "id": 360,
+    "question": "list revenue for last week less than 5 items"
+  },
+  {
+    "id": 361,
+    "question": "get inventory for this year above 1000"
+  },
+  {
+    "id": 362,
+    "question": "list expenses for this week pending"
+  },
+  {
+    "id": 363,
+    "question": "find expenses for this week pending"
+  },
+  {
+    "id": 364,
+    "question": "find suppliers for last 3 months less than 5 items"
+  },
+  {
+    "id": 365,
+    "question": "calculate revenue for this week below 500"
+  },
+  {
+    "id": 366,
+    "question": "calculate orders for last month cancelled"
+  },
+  {
+    "id": 367,
+    "question": "get customers for last week with lowest value"
+  },
+  {
+    "id": 368,
+    "question": "list inventory for last week pending"
+  },
+  {
+    "id": 369,
+    "question": "find stock for this week greater than 10 units"
+  },
+  {
+    "id": 370,
+    "question": "get sale for this week completed"
+  },
+  {
+    "id": 371,
+    "question": "get revenue for this week cancelled"
+  },
+  {
+    "id": 372,
+    "question": "get expenses for yesterday with lowest value"
+  },
+  {
+    "id": 373,
+    "question": "list profit for today completed"
+  },
+  {
+    "id": 374,
+    "question": "display returns for this year with lowest value"
+  },
+  {
+    "id": 375,
+    "question": "tell me orders for last month cancelled"
+  },
+  {
+    "id": 376,
+    "question": "list profet for last week pending"
+  },
+  {
+    "id": 377,
+    "question": "calculate revenue for today with lowest value"
+  },
+  {
+    "id": 378,
+    "question": "find invoices for this month with highest value"
+  },
+  {
+    "id": 379,
+    "question": "tell me revenue for last week with highest value"
+  },
+  {
+    "id": 380,
+    "question": "give customers for this month above 1000"
+  },
+  {
+    "id": 381,
+    "question": "give customers for this month less than 5 items"
+  },
+  {
+    "id": 382,
+    "question": "show suppliers for this year pending"
+  },
+  {
+    "id": 383,
+    "question": "find revenue for today with highest value"
+  },
+  {
+    "id": 384,
+    "question": "give sales for this week with highest value"
+  },
+  {
+    "id": 385,
+    "question": "calculate stock for yesterday completed"
+  },
+  {
+    "id": 386,
+    "question": "show expenses for this week less than 5 items"
+  },
+  {
+    "id": 387,
+    "question": "list orders for this year with lowest value"
+  },
+  {
+    "id": 388,
+    "question": "display expenses for today completed"
+  },
+  {
+    "id": 389,
+    "question": "calculate suppliers for last week completed"
+  },
+  {
+    "id": 390,
+    "question": "tell me suppliers for last week with highest value"
+  },
+  {
+    "id": 391,
+    "question": "calculate customers for this week pending"
+  },
+  {
+    "id": 392,
+    "question": "get stock for this month with lowest value"
+  },
+  {
+    "id": 393,
+    "question": "get invoices for this week below 500"
+  },
+  {
+    "id": 394,
+    "question": "list profit for this year less than 5 items"
+  },
+  {
+    "id": 395,
+    "question": "get customers for this month completed"
+  },
+  {
+    "id": 396,
+    "question": "give stock for this month pending"
+  },
+  {
+    "id": 397,
+    "question": "show suppliers for last week cancelled"
+  },
+  {
+    "id": 398,
+    "question": "list profit for today above 1000"
+  },
+  {
+    "id": 399,
+    "question": "tell me expenses for today with lowest value"
+  },
+  {
+    "id": 400,
+    "question": "calculate stock for this week above 1000"
+  },
+  {
+    "id": 401,
+    "question": "give sales for this week less than 5 items"
+  },
+  {
+    "id": 402,
+    "question": "give stock for this year completed"
+  },
+  {
+    "id": 403,
+    "question": "display revenue for today below 500"
+  },
+  {
+    "id": 404,
+    "question": "display returns for last month greater than 10 units"
+  },
+  {
+    "id": 405,
+    "question": "tell me inventory for this year with highest value"
+  },
+  {
+    "id": 406,
+    "question": "list invoices for this month cancelled"
+  },
+  {
+    "id": 407,
+    "question": "give inventory for yesterday completed"
+  },
+  {
+    "id": 408,
+    "question": "show invoices for yesterday with lowest value"
+  },
+  {
+    "id": 409,
+    "question": "list stock for this year below 500"
+  },
+  {
+    "id": 410,
+    "question": "display profit for yesterday with lowest value"
+  },
+  {
+    "id": 411,
+    "question": "get orders for last month pending"
+  },
+  {
+    "id": 412,
+    "question": "display expenses for last month with lowest value"
+  },
+  {
+    "id": 413,
+    "question": "list profit for last 3 months above 1000"
+  },
+  {
+    "id": 414,
+    "question": "get returns for this week pending"
+  },
+  {
+    "id": 415,
+    "question": "tell me stock for this month less than 5 items"
+  },
+  {
+    "id": 416,
+    "question": "give expenses for last month greater than 10 units"
+  },
+  {
+    "id": 417,
+    "question": "show revenue for yesterday greater than 10 units"
+  },
+  {
+    "id": 418,
+    "question": "give customers for this month pending"
+  },
+  {
+    "id": 419,
+    "question": "list profit for this week with lowest value"
+  },
+  {
+    "id": 420,
+    "question": "display revenue for last month greater than 10 units"
+  },
+  {
+    "id": 421,
+    "question": "show invoices for this week completed"
+  },
+  {
+    "id": 422,
+    "question": "tell me customers for today pending"
+  },
+  {
+    "id": 423,
+    "question": "list stock for this month pending"
+  },
+  {
+    "id": 424,
+    "question": "list customers for yesterday completed"
+  },
+  {
+    "id": 425,
+    "question": "calculate orders for last 3 months with lowest value"
+  },
+  {
+    "id": 426,
+    "question": "tell me stock for last 3 months with highest value"
+  },
+  {
+    "id": 427,
+    "question": "find profit for this month cancelled"
+  },
+  {
+    "id": 428,
+    "question": "show profit for yesterday greater than 10 units"
+  },
+  {
+    "id": 429,
+    "question": "display suppliers for this month greater than 10 units"
+  },
+  {
+    "id": 430,
+    "question": "calculate customers for last week less than 5 items"
+  },
+  {
+    "id": 431,
+    "question": "calculate revenue for this year with highest value"
+  },
+  {
+    "id": 432,
+    "question": "give inventory for this week less than 5 items"
+  },
+  {
+    "id": 433,
+    "question": "find profit for this year with lowest value"
+  },
+  {
+    "id": 434,
+    "question": "calculate inventory for this month pending"
+  },
+  {
+    "id": 435,
+    "question": "get stock for this month cancelled"
+  },
+  {
+    "id": 436,
+    "question": "list sales for last 3 months completed"
+  },
+  {
+    "id": 437,
+    "question": "list invoices for this month below 500"
+  },
+  {
+    "id": 438,
+    "question": "find revenue for this month less than 5 items"
+  },
+  {
+    "id": 439,
+    "question": "tell me customers for this week greater than 10 units"
+  },
+  {
+    "id": 440,
+    "question": "list suppliers for yesterday with lowest value"
+  },
+  {
+    "id": 441,
+    "question": "tell me stock for yesterday cancelled"
+  },
+  {
+    "id": 442,
+    "question": "find revenue for last 3 months above 1000"
+  },
+  {
+    "id": 443,
+    "question": "get profit for today with lowest value"
+  },
+  {
+    "id": 444,
+    "question": "tell me suppliers for last 3 months above 1000"
+  },
+  {
+    "id": 445,
+    "question": "calculate customers for this year greater than 10 units"
+  },
+  {
+    "id": 446,
+    "question": "calculate inventory for this week pending"
+  },
+  {
+    "id": 447,
+    "question": "calculate expenses for this year pending"
+  },
+  {
+    "id": 448,
+    "question": "calculate inventory for last month pending"
+  },
+  {
+    "id": 449,
+    "question": "tell me proft for last week less than 5 items"
+  },
+  {
+    "id": 450,
+    "question": "get stock for last month completed"
+  },
+  {
+    "id": 451,
+    "question": "give revenue for this month greater than 10 units"
+  },
+  {
+    "id": 452,
+    "question": "give customers for this month cancelled"
+  },
+  {
+    "id": 453,
+    "question": "calculate orders for today greater than 10 units"
+  },
+  {
+    "id": 454,
+    "question": "show returns for last month with highest value"
+  },
+  {
+    "id": 455,
+    "question": "display customers for this week below 500"
+  },
+  {
+    "id": 456,
+    "question": "get inventory for this month with lowest value"
+  },
+  {
+    "id": 457,
+    "question": "find expenses for yesterday above 1000"
+  },
+  {
+    "id": 458,
+    "question": "show stock for this month below 500"
+  },
+  {
+    "id": 459,
+    "question": "give expenses for yesterday pending"
+  },
+  {
+    "id": 460,
+    "question": "tell me expns for last month less than 5 items"
+  },
+  {
+    "id": 461,
+    "question": "tell me revenue for last month pending"
+  },
+  {
+    "id": 462,
+    "question": "calculate sales for today with highest value"
+  },
+  {
+    "id": 463,
+    "question": "display proft for yesterday completed"
+  },
+  {
+    "id": 464,
+    "question": "tell me customers for last month completed"
+  },
+  {
+    "id": 465,
+    "question": "list suppliers for yesterday pending"
+  },
+  {
+    "id": 466,
+    "question": "show invoices for last month pending"
+  },
+  {
+    "id": 467,
+    "question": "find orders for this week with highest value"
+  },
+  {
+    "id": 468,
+    "question": "give suppliers for last month completed"
+  },
+  {
+    "id": 469,
+    "question": "give profit for yesterday with lowest value"
+  },
+  {
+    "id": 470,
+    "question": "get expenses for today greater than 10 units"
+  },
+  {
+    "id": 471,
+    "question": "list orders for today with lowest value"
+  },
+  {
+    "id": 472,
+    "question": "show revenue for last month below 500"
+  },
+  {
+    "id": 473,
+    "question": "get sales for this month below 500"
+  },
+  {
+    "id": 474,
+    "question": "find proft for today pending"
+  },
+  {
+    "id": 475,
+    "question": "find revenue for yesterday pending"
+  },
+  {
+    "id": 476,
+    "question": "give proft for today completed"
+  },
+  {
+    "id": 477,
+    "question": "get profit for today with highest value"
+  },
+  {
+    "id": 478,
+    "question": "show stock for today above 1000"
+  },
+  {
+    "id": 479,
+    "question": "show profit for today completed"
+  },
+  {
+    "id": 480,
+    "question": "tell me suppliers for today below 500"
+  },
+  {
+    "id": 481,
+    "question": "list suppliers for last 3 months below 500"
+  },
+  {
+    "id": 482,
+    "question": "show suppliers for last month below 500"
+  },
+  {
+    "id": 483,
+    "question": "get returns for yesterday pending"
+  },
+  {
+    "id": 484,
+    "question": "give sales for this week with highest value"
+  },
+  {
+    "id": 485,
+    "question": "show profit for last 3 months with lowest value"
+  },
+  {
+    "id": 486,
+    "question": "get inventory for this month cancelled"
+  },
+  {
+    "id": 487,
+    "question": "show customers for this month greater than 10 units"
+  },
+  {
+    "id": 488,
+    "question": "give stock for today pending"
+  },
+  {
+    "id": 489,
+    "question": "tell me custmr for today cancelled"
+  },
+  {
+    "id": 490,
+    "question": "get sales for yesterday pending"
+  },
+  {
+    "id": 491,
+    "question": "tell me inventory for this week with lowest value"
+  },
+  {
+    "id": 492,
+    "question": "get sales for this week below 500"
+  },
+  {
+    "id": 493,
+    "question": "get odrs for last month with highest value"
+  },
+  {
+    "id": 494,
+    "question": "tell me customers for today completed"
+  },
+  {
+    "id": 495,
+    "question": "display invoices for last week less than 5 items"
+  },
+  {
+    "id": 496,
+    "question": "show stock for last month above 1000"
+  },
+  {
+    "id": 497,
+    "question": "show invoices for this month pending"
+  },
+  {
+    "id": 498,
+    "question": "find profit for this week cancelled"
+  },
+  {
+    "id": 499,
+    "question": "display inventory for last 3 months below 500"
+  },
+  {
+    "id": 500,
+    "question": "show orders for yesterday with lowest value"
+  },
+  {
+    "id": 501,
+    "question": "calculate invoices for last month below 500"
+  },
+  {
+    "id": 502,
+    "question": "show profit for this week with lowest value"
+  },
+  {
+    "id": 503,
+    "question": "list sales for yesterday below 500"
+  },
+  {
+    "id": 504,
+    "question": "tell me invoices for last month above 1000"
+  },
+  {
+    "id": 505,
+    "question": "calculate stock for last 3 months pending"
+  },
+  {
+    "id": 506,
+    "question": "show inventry for last month less than 5 items"
+  },
+  {
+    "id": 507,
+    "question": "find invoices for today less than 5 items"
+  },
+  {
+    "id": 508,
+    "question": "tell me stock for yesterday cancelled"
+  },
+  {
+    "id": 509,
+    "question": "list stock for this month with highest value"
+  },
+  {
+    "id": 510,
+    "question": "show invoices for yesterday cancelled"
+  },
+  {
+    "id": 511,
+    "question": "display invoices for this year with highest value"
+  },
+  {
+    "id": 512,
+    "question": "list customers for yesterday cancelled"
+  },
+  {
+    "id": 513,
+    "question": "find invoices for yesterday above 1000"
+  },
+  {
+    "id": 514,
+    "question": "tell me customers for today cancelled"
+  },
+  {
+    "id": 515,
+    "question": "find profit for yesterday completed"
+  },
+  {
+    "id": 516,
+    "question": "list revenue for this month above 1000"
+  },
+  {
+    "id": 517,
+    "question": "get inventory for today less than 5 items"
+  },
+  {
+    "id": 518,
+    "question": "list odrs for today below 500"
+  },
+  {
+    "id": 519,
+    "question": "display orders for yesterday less than 5 items"
+  },
+  {
+    "id": 520,
+    "question": "get suppliers for this week pending"
+  },
+  {
+    "id": 521,
+    "question": "display returns for this month cancelled"
+  },
+  {
+    "id": 522,
+    "question": "calculate sales for this year cancelled"
+  },
+  {
+    "id": 523,
+    "question": "get custmr for this week below 500"
+  },
+  {
+    "id": 524,
+    "question": "tell me stock for yesterday greater than 10 units"
+  },
+  {
+    "id": 525,
+    "question": "find revenue for this week completed"
+  },
+  {
+    "id": 526,
+    "question": "give invoices for this year above 1000"
+  },
+  {
+    "id": 527,
+    "question": "list expences for yesterday less than 5 items"
+  },
+  {
+    "id": 528,
+    "question": "find stock for this week below 500"
+  },
+  {
+    "id": 529,
+    "question": "get revenue for last week above 1000"
+  },
+  {
+    "id": 530,
+    "question": "display returns for yesterday with lowest value"
+  },
+  {
+    "id": 531,
+    "question": "list orders for last 3 months greater than 10 units"
+  },
+  {
+    "id": 532,
+    "question": "display inventory for today below 500"
+  },
+  {
+    "id": 533,
+    "question": "display customers for this year with lowest value"
+  },
+  {
+    "id": 534,
+    "question": "show profit for last month above 1000"
+  },
+  {
+    "id": 535,
+    "question": "list customers for last week with highest value"
+  },
+  {
+    "id": 536,
+    "question": "get returns for this year completed"
+  },
+  {
+    "id": 537,
+    "question": "find invoices for last week with lowest value"
+  },
+  {
+    "id": 538,
+    "question": "get suppliers for today cancelled"
+  },
+  {
+    "id": 539,
+    "question": "find returns for last week above 1000"
+  },
+  {
+    "id": 540,
+    "question": "get stock for this month with highest value"
+  },
+  {
+    "id": 541,
+    "question": "tell me sale for this year completed"
+  },
+  {
+    "id": 542,
+    "question": "get customers for today above 1000"
+  },
+  {
+    "id": 543,
+    "question": "display sales for this week with lowest value"
+  },
+  {
+    "id": 544,
+    "question": "find customers for today less than 5 items"
+  },
+  {
+    "id": 545,
+    "question": "list customers for this month cancelled"
+  },
+  {
+    "id": 546,
+    "question": "calculate sles for this year completed"
+  },
+  {
+    "id": 547,
+    "question": "list revenue for this month above 1000"
+  },
+  {
+    "id": 548,
+    "question": "tell me suppliers for last month above 1000"
+  },
+  {
+    "id": 549,
+    "question": "display revenue for last week with highest value"
+  },
+  {
+    "id": 550,
+    "question": "give returns for last 3 months completed"
+  },
+  {
+    "id": 551,
+    "question": "tell me stock for last week above 1000"
+  },
+  {
+    "id": 552,
+    "question": "display profit for last 3 months with lowest value"
+  },
+  {
+    "id": 553,
+    "question": "get inventory for today pending"
+  },
+  {
+    "id": 554,
+    "question": "list stock for this week with highest value"
+  },
+  {
+    "id": 555,
+    "question": "list returns for this week with lowest value"
+  },
+  {
+    "id": 556,
+    "question": "show invoices for last 3 months cancelled"
+  },
+  {
+    "id": 557,
+    "question": "give inventory for last month below 500"
+  },
+  {
+    "id": 558,
+    "question": "list sales for last 3 months below 500"
+  },
+  {
+    "id": 559,
+    "question": "list suppliers for yesterday with highest value"
+  },
+  {
+    "id": 560,
+    "question": "calculate inventory for today completed"
+  },
+  {
+    "id": 561,
+    "question": "find profit for last month below 500"
+  },
+  {
+    "id": 562,
+    "question": "display customers for last 3 months completed"
+  },
+  {
+    "id": 563,
+    "question": "give stock for last 3 months above 1000"
+  },
+  {
+    "id": 564,
+    "question": "tell me profit for yesterday pending"
+  },
+  {
+    "id": 565,
+    "question": "find invoices for this month with lowest value"
+  },
+  {
+    "id": 566,
+    "question": "give orders for last 3 months less than 5 items"
+  },
+  {
+    "id": 567,
+    "question": "list profet for last week above 1000"
+  },
+  {
+    "id": 568,
+    "question": "list suppliers for this month completed"
+  },
+  {
+    "id": 569,
+    "question": "show stock for last week greater than 10 units"
+  },
+  {
+    "id": 570,
+    "question": "show invntory for today cancelled"
+  },
+  {
+    "id": 571,
+    "question": "get orders for last month above 1000"
+  },
+  {
+    "id": 572,
+    "question": "show sales for last 3 months with lowest value"
+  },
+  {
+    "id": 573,
+    "question": "get suppliers for last week cancelled"
+  },
+  {
+    "id": 574,
+    "question": "display stok for last month cancelled"
+  },
+  {
+    "id": 575,
+    "question": "tell me revenue for this week with highest value"
+  },
+  {
+    "id": 576,
+    "question": "calculate customers for today cancelled"
+  },
+  {
+    "id": 577,
+    "question": "tell me stock for last week pending"
+  },
+  {
+    "id": 578,
+    "question": "calculate stock for this week completed"
+  },
+  {
+    "id": 579,
+    "question": "give returns for today above 1000"
+  },
+  {
+    "id": 580,
+    "question": "show customers for yesterday with lowest value"
+  },
+  {
+    "id": 581,
+    "question": "display expenses for yesterday pending"
+  },
+  {
+    "id": 582,
+    "question": "show orders for last month above 1000"
+  },
+  {
+    "id": 583,
+    "question": "display revenue for yesterday less than 5 items"
+  },
+  {
+    "id": 584,
+    "question": "show stok for this week with highest value"
+  },
+  {
+    "id": 585,
+    "question": "find inventory for yesterday pending"
+  },
+  {
+    "id": 586,
+    "question": "find suppliers for yesterday completed"
+  },
+  {
+    "id": 587,
+    "question": "list orders for last month cancelled"
+  },
+  {
+    "id": 588,
+    "question": "get expenses for last 3 months pending"
+  },
+  {
+    "id": 589,
+    "question": "calculate orders for yesterday cancelled"
+  },
+  {
+    "id": 590,
+    "question": "tell me returns for last month with lowest value"
+  },
+  {
+    "id": 591,
+    "question": "find inventory for last month less than 5 items"
+  },
+  {
+    "id": 592,
+    "question": "list proft for last 3 months cancelled"
+  },
+  {
+    "id": 593,
+    "question": "display orders for yesterday below 500"
+  },
+  {
+    "id": 594,
+    "question": "display stock for this month with lowest value"
+  },
+  {
+    "id": 595,
+    "question": "tell me returns for yesterday with highest value"
+  },
+  {
+    "id": 596,
+    "question": "calculate revenue for today pending"
+  },
+  {
+    "id": 597,
+    "question": "display expns for last 3 months less than 5 items"
+  },
+  {
+    "id": 598,
+    "question": "calculate expns for this week cancelled"
+  },
+  {
+    "id": 599,
+    "question": "show expenses for this month less than 5 items"
+  },
+  {
+    "id": 600,
+    "question": "give invoices for this month completed"
+  },
+  {
+    "id": 601,
+    "question": "calculate invoices for today with lowest value"
+  },
+  {
+    "id": 602,
+    "question": "find profit for last week with highest value"
+  },
+  {
+    "id": 603,
+    "question": "get expenses for this year greater than 10 units"
+  },
+  {
+    "id": 604,
+    "question": "list invoices for today with highest value"
+  },
+  {
+    "id": 605,
+    "question": "give expenses for this week greater than 10 units"
+  },
+  {
+    "id": 606,
+    "question": "get customers for last 3 months cancelled"
+  },
+  {
+    "id": 607,
+    "question": "calculate profit for last month below 500"
+  },
+  {
+    "id": 608,
+    "question": "calculate suppliers for this week above 1000"
+  },
+  {
+    "id": 609,
+    "question": "give revenue for yesterday completed"
+  },
+  {
+    "id": 610,
+    "question": "display sales for this month less than 5 items"
+  },
+  {
+    "id": 611,
+    "question": "list returns for this month cancelled"
+  },
+  {
+    "id": 612,
+    "question": "give sales for last week less than 5 items"
+  },
+  {
+    "id": 613,
+    "question": "list returns for last 3 months completed"
+  },
+  {
+    "id": 614,
+    "question": "calculate revenue for yesterday completed"
+  },
+  {
+    "id": 615,
+    "question": "tell me invoices for last month greater than 10 units"
+  },
+  {
+    "id": 616,
+    "question": "calculate sales for last week with lowest value"
+  },
+  {
+    "id": 617,
+    "question": "get expenses for yesterday pending"
+  },
+  {
+    "id": 618,
+    "question": "get invoices for last 3 months cancelled"
+  },
+  {
+    "id": 619,
+    "question": "show stock for this year pending"
+  },
+  {
+    "id": 620,
+    "question": "tell me profit for this month cancelled"
+  },
+  {
+    "id": 621,
+    "question": "give inventory for yesterday with lowest value"
+  },
+  {
+    "id": 622,
+    "question": "tell me orders for yesterday pending"
+  },
+  {
+    "id": 623,
+    "question": "list revenue for last 3 months less than 5 items"
+  },
+  {
+    "id": 624,
+    "question": "display invoices for this week completed"
+  },
+  {
+    "id": 625,
+    "question": "give profit for yesterday with lowest value"
+  },
+  {
+    "id": 626,
+    "question": "list stok for this year greater than 10 units"
+  },
+  {
+    "id": 627,
+    "question": "display expenses for today pending"
+  },
+  {
+    "id": 628,
+    "question": "give profit for last 3 months greater than 10 units"
+  },
+  {
+    "id": 629,
+    "question": "get stok for last week below 500"
+  },
+  {
+    "id": 630,
+    "question": "show revenue for this week with lowest value"
+  },
+  {
+    "id": 631,
+    "question": "find suppliers for this month greater than 10 units"
+  },
+  {
+    "id": 632,
+    "question": "list suppliers for this month above 1000"
+  },
+  {
+    "id": 633,
+    "question": "display stok for this year pending"
+  },
+  {
+    "id": 634,
+    "question": "get profit for last 3 months less than 5 items"
+  },
+  {
+    "id": 635,
+    "question": "give profit for last month less than 5 items"
+  },
+  {
+    "id": 636,
+    "question": "calculate revenue for last month below 500"
+  },
+  {
+    "id": 637,
+    "question": "get orders for last month above 1000"
+  },
+  {
+    "id": 638,
+    "question": "show returns for yesterday pending"
+  },
+  {
+    "id": 639,
+    "question": "list returns for this month greater than 10 units"
+  },
+  {
+    "id": 640,
+    "question": "tell me returns for this month with highest value"
+  },
+  {
+    "id": 641,
+    "question": "calculate sale for last 3 months with lowest value"
+  },
+  {
+    "id": 642,
+    "question": "calculate orders for last week above 1000"
+  },
+  {
+    "id": 643,
+    "question": "calculate inventory for this year with lowest value"
+  },
+  {
+    "id": 644,
+    "question": "calculate suppliers for this week less than 5 items"
+  },
+  {
+    "id": 645,
+    "question": "list suppliers for this month with highest value"
+  },
+  {
+    "id": 646,
+    "question": "give custmr for this year above 1000"
+  },
+  {
+    "id": 647,
+    "question": "calculate returns for last 3 months with lowest value"
+  },
+  {
+    "id": 648,
+    "question": "find sales for last week with lowest value"
+  },
+  {
+    "id": 649,
+    "question": "get inventory for this year pending"
+  },
+  {
+    "id": 650,
+    "question": "display orders for last week with highest value"
+  },
+  {
+    "id": 651,
+    "question": "get sales for today with lowest value"
+  },
+  {
+    "id": 652,
+    "question": "display customers for this month cancelled"
+  },
+  {
+    "id": 653,
+    "question": "show sales for last week with lowest value"
+  },
+  {
+    "id": 654,
+    "question": "tell me customers for this year with lowest value"
+  },
+  {
+    "id": 655,
+    "question": "give suppliers for this month completed"
+  },
+  {
+    "id": 656,
+    "question": "give stock for yesterday cancelled"
+  },
+  {
+    "id": 657,
+    "question": "display expenses for last week with highest value"
+  },
+  {
+    "id": 658,
+    "question": "find expenses for this month with lowest value"
+  },
+  {
+    "id": 659,
+    "question": "give customers for this month cancelled"
+  },
+  {
+    "id": 660,
+    "question": "show invoices for this week cancelled"
+  },
+  {
+    "id": 661,
+    "question": "list inventory for last month with highest value"
+  },
+  {
+    "id": 662,
+    "question": "give sales for this year less than 5 items"
+  },
+  {
+    "id": 663,
+    "question": "list returns for last month greater than 10 units"
+  },
+  {
+    "id": 664,
+    "question": "give customers for today completed"
+  },
+  {
+    "id": 665,
+    "question": "get profit for today less than 5 items"
+  },
+  {
+    "id": 666,
+    "question": "calculate suppliers for this month above 1000"
+  },
+  {
+    "id": 667,
+    "question": "tell me sales for last 3 months pending"
+  },
+  {
+    "id": 668,
+    "question": "give returns for today below 500"
+  },
+  {
+    "id": 669,
+    "question": "get revenue for last 3 months above 1000"
+  },
+  {
+    "id": 670,
+    "question": "give customers for this week with highest value"
+  },
+  {
+    "id": 671,
+    "question": "list suppliers for today below 500"
+  },
+  {
+    "id": 672,
+    "question": "tell me invoices for last 3 months pending"
+  },
+  {
+    "id": 673,
+    "question": "list revenue for last month cancelled"
+  },
+  {
+    "id": 674,
+    "question": "list orders for last 3 months above 1000"
+  },
+  {
+    "id": 675,
+    "question": "calculate stock for yesterday below 500"
+  },
+  {
+    "id": 676,
+    "question": "get stock for this month cancelled"
+  },
+  {
+    "id": 677,
+    "question": "find profit for this year less than 5 items"
+  },
+  {
+    "id": 678,
+    "question": "show customers for this year less than 5 items"
+  },
+  {
+    "id": 679,
+    "question": "tell me invoices for last month above 1000"
+  },
+  {
+    "id": 680,
+    "question": "give orders for this week with highest value"
+  },
+  {
+    "id": 681,
+    "question": "list revenue for yesterday with highest value"
+  },
+  {
+    "id": 682,
+    "question": "give customers for last week completed"
+  },
+  {
+    "id": 683,
+    "question": "show profit for today below 500"
+  },
+  {
+    "id": 684,
+    "question": "list revenue for this month with highest value"
+  },
+  {
+    "id": 685,
+    "question": "list returns for this month completed"
+  },
+  {
+    "id": 686,
+    "question": "display stock for this month with lowest value"
+  },
+  {
+    "id": 687,
+    "question": "get invoices for this month with lowest value"
+  },
+  {
+    "id": 688,
+    "question": "give customers for yesterday below 500"
+  },
+  {
+    "id": 689,
+    "question": "give sales for last month completed"
+  },
+  {
+    "id": 690,
+    "question": "find returns for last week with highest value"
+  },
+  {
+    "id": 691,
+    "question": "calculate revenue for last week pending"
+  },
+  {
+    "id": 692,
+    "question": "find sles for today greater than 10 units"
+  },
+  {
+    "id": 693,
+    "question": "get returns for this week below 500"
+  },
+  {
+    "id": 694,
+    "question": "calculate sales for this year cancelled"
+  },
+  {
+    "id": 695,
+    "question": "find stock for yesterday less than 5 items"
+  },
+  {
+    "id": 696,
+    "question": "list returns for this year pending"
+  },
+  {
+    "id": 697,
+    "question": "list expenses for this year below 500"
+  },
+  {
+    "id": 698,
+    "question": "find sales for last 3 months greater than 10 units"
+  },
+  {
+    "id": 699,
+    "question": "show expenses for last 3 months greater than 10 units"
+  },
+  {
+    "id": 700,
+    "question": "give stock for last month pending"
+  },
+  {
+    "id": 701,
+    "question": "show inventry for this month pending"
+  },
+  {
+    "id": 702,
+    "question": "find expenses for this month cancelled"
+  },
+  {
+    "id": 703,
+    "question": "give sales for this week cancelled"
+  },
+  {
+    "id": 704,
+    "question": "display stock for last 3 months greater than 10 units"
+  },
+  {
+    "id": 705,
+    "question": "show customers for last month above 1000"
+  },
+  {
+    "id": 706,
+    "question": "calculate customers for this week with lowest value"
+  },
+  {
+    "id": 707,
+    "question": "get orders for this month cancelled"
+  },
+  {
+    "id": 708,
+    "question": "show inventory for last week less than 5 items"
+  },
+  {
+    "id": 709,
+    "question": "give customers for last month less than 5 items"
+  },
+  {
+    "id": 710,
+    "question": "get customers for last month pending"
+  },
+  {
+    "id": 711,
+    "question": "show returns for last month less than 5 items"
+  },
+  {
+    "id": 712,
+    "question": "give stock for last 3 months with lowest value"
+  },
+  {
+    "id": 713,
+    "question": "show sales for yesterday below 500"
+  },
+  {
+    "id": 714,
+    "question": "display revenue for yesterday with lowest value"
+  },
+  {
+    "id": 715,
+    "question": "give revenue for last 3 months completed"
+  },
+  {
+    "id": 716,
+    "question": "get expenses for yesterday completed"
+  },
+  {
+    "id": 717,
+    "question": "calculate invoices for yesterday completed"
+  },
+  {
+    "id": 718,
+    "question": "give customers for this month below 500"
+  },
+  {
+    "id": 719,
+    "question": "display sales for this week with lowest value"
+  },
+  {
+    "id": 720,
+    "question": "find revenue for last 3 months greater than 10 units"
+  },
+  {
+    "id": 721,
+    "question": "show returns for last week with lowest value"
+  },
+  {
+    "id": 722,
+    "question": "display suppliers for this year above 1000"
+  },
+  {
+    "id": 723,
+    "question": "give suppliers for this year cancelled"
+  },
+  {
+    "id": 724,
+    "question": "give sales for yesterday completed"
+  },
+  {
+    "id": 725,
+    "question": "display stock for this year greater than 10 units"
+  },
+  {
+    "id": 726,
+    "question": "display suppliers for this week greater than 10 units"
+  },
+  {
+    "id": 727,
+    "question": "calculate sales for last week pending"
+  },
+  {
+    "id": 728,
+    "question": "calculate invntory for this month with highest value"
+  },
+  {
+    "id": 729,
+    "question": "tell me sales for last month with lowest value"
+  },
+  {
+    "id": 730,
+    "question": "find suppliers for last 3 months cancelled"
+  },
+  {
+    "id": 731,
+    "question": "display expenses for this month with highest value"
+  },
+  {
+    "id": 732,
+    "question": "get revenue for this month above 1000"
+  },
+  {
+    "id": 733,
+    "question": "tell me customers for this year less than 5 items"
+  },
+  {
+    "id": 734,
+    "question": "list orders for last week pending"
+  },
+  {
+    "id": 735,
+    "question": "get stock for yesterday with lowest value"
+  },
+  {
+    "id": 736,
+    "question": "find sales for this year cancelled"
+  },
+  {
+    "id": 737,
+    "question": "find profit for this year greater than 10 units"
+  },
+  {
+    "id": 738,
+    "question": "show profit for last 3 months greater than 10 units"
+  },
+  {
+    "id": 739,
+    "question": "list expenses for last week greater than 10 units"
+  },
+  {
+    "id": 740,
+    "question": "get invoices for yesterday with highest value"
+  },
+  {
+    "id": 741,
+    "question": "calculate inventory for this year with lowest value"
+  },
+  {
+    "id": 742,
+    "question": "tell me stock for this month greater than 10 units"
+  },
+  {
+    "id": 743,
+    "question": "give sales for last month below 500"
+  },
+  {
+    "id": 744,
+    "question": "get sales for this week above 1000"
+  },
+  {
+    "id": 745,
+    "question": "show expenses for this week greater than 10 units"
+  },
+  {
+    "id": 746,
+    "question": "list invoices for this year cancelled"
+  },
+  {
+    "id": 747,
+    "question": "find inventory for this month completed"
+  },
+  {
+    "id": 748,
+    "question": "calculate orders for this year pending"
+  },
+  {
+    "id": 749,
+    "question": "show profit for this week pending"
+  },
+  {
+    "id": 750,
+    "question": "get orders for today greater than 10 units"
+  },
+  {
+    "id": 751,
+    "question": "give profit for this week completed"
+  },
+  {
+    "id": 752,
+    "question": "show sles for last week pending"
+  },
+  {
+    "id": 753,
+    "question": "show returns for this week below 500"
+  },
+  {
+    "id": 754,
+    "question": "calculate stok for last 3 months below 500"
+  },
+  {
+    "id": 755,
+    "question": "list suppliers for this month less than 5 items"
+  },
+  {
+    "id": 756,
+    "question": "find custmr for today with highest value"
+  },
+  {
+    "id": 757,
+    "question": "get revenue for today with lowest value"
+  },
+  {
+    "id": 758,
+    "question": "calculate returns for this month pending"
+  },
+  {
+    "id": 759,
+    "question": "give customers for this week cancelled"
+  },
+  {
+    "id": 760,
+    "question": "list invoices for this year completed"
+  },
+  {
+    "id": 761,
+    "question": "calculate suppliers for last 3 months pending"
+  },
+  {
+    "id": 762,
+    "question": "show profit for this week greater than 10 units"
+  },
+  {
+    "id": 763,
+    "question": "display stock for today with highest value"
+  },
+  {
+    "id": 764,
+    "question": "show suppliers for last month cancelled"
+  },
+  {
+    "id": 765,
+    "question": "give customers for yesterday with highest value"
+  },
+  {
+    "id": 766,
+    "question": "find orders for last month pending"
+  },
+  {
+    "id": 767,
+    "question": "list customers for today cancelled"
+  },
+  {
+    "id": 768,
+    "question": "display suppliers for this year with lowest value"
+  },
+  {
+    "id": 769,
+    "question": "list profit for last month pending"
+  },
+  {
+    "id": 770,
+    "question": "tell me inventory for yesterday completed"
+  },
+  {
+    "id": 771,
+    "question": "get suppliers for yesterday completed"
+  },
+  {
+    "id": 772,
+    "question": "display profit for this year above 1000"
+  },
+  {
+    "id": 773,
+    "question": "get sales for this month greater than 10 units"
+  },
+  {
+    "id": 774,
+    "question": "show sales for last month completed"
+  },
+  {
+    "id": 775,
+    "question": "get orders for this year with highest value"
+  },
+  {
+    "id": 776,
+    "question": "show custmr for last week below 500"
+  },
+  {
+    "id": 777,
+    "question": "give inventory for yesterday above 1000"
+  },
+  {
+    "id": 778,
+    "question": "show expenses for last month with lowest value"
+  },
+  {
+    "id": 779,
+    "question": "get orders for last month cancelled"
+  },
+  {
+    "id": 780,
+    "question": "find custmr for this month less than 5 items"
+  },
+  {
+    "id": 781,
+    "question": "display sales for this month pending"
+  },
+  {
+    "id": 782,
+    "question": "get invoices for this year with lowest value"
+  },
+  {
+    "id": 783,
+    "question": "show ordrs for last month completed"
+  },
+  {
+    "id": 784,
+    "question": "tell me invoices for last month below 500"
+  },
+  {
+    "id": 785,
+    "question": "display orders for this year with lowest value"
+  },
+  {
+    "id": 786,
+    "question": "list invoices for this month greater than 10 units"
+  },
+  {
+    "id": 787,
+    "question": "show orders for this year below 500"
+  },
+  {
+    "id": 788,
+    "question": "calculate profit for this year below 500"
+  },
+  {
+    "id": 789,
+    "question": "get stock for this year with lowest value"
+  },
+  {
+    "id": 790,
+    "question": "get expences for today above 1000"
+  },
+  {
+    "id": 791,
+    "question": "display stock for yesterday with highest value"
+  },
+  {
+    "id": 792,
+    "question": "list suppliers for this month with lowest value"
+  },
+  {
+    "id": 793,
+    "question": "find invoices for last 3 months completed"
+  },
+  {
+    "id": 794,
+    "question": "display ordrs for yesterday cancelled"
+  },
+  {
+    "id": 795,
+    "question": "calculate sales for this month with highest value"
+  },
+  {
+    "id": 796,
+    "question": "get revenue for yesterday with lowest value"
+  },
+  {
+    "id": 797,
+    "question": "tell me revenue for this week with lowest value"
+  },
+  {
+    "id": 798,
+    "question": "tell me invoices for this week pending"
+  },
+  {
+    "id": 799,
+    "question": "calculate profit for yesterday greater than 10 units"
+  },
+  {
+    "id": 800,
+    "question": "calculate returns for this year below 500"
+  },
+  {
+    "id": 801,
+    "question": "display inventory for this week completed"
+  },
+  {
+    "id": 802,
+    "question": "display stock for last month completed"
+  },
+  {
+    "id": 803,
+    "question": "list expenses for last month cancelled"
+  },
+  {
+    "id": 804,
+    "question": "display inventory for yesterday above 1000"
+  },
+  {
+    "id": 805,
+    "question": "calculate expns for last 3 months with highest value"
+  },
+  {
+    "id": 806,
+    "question": "give stock for yesterday completed"
+  },
+  {
+    "id": 807,
+    "question": "find profit for this month pending"
+  },
+  {
+    "id": 808,
+    "question": "show revenue for this week completed"
+  },
+  {
+    "id": 809,
+    "question": "give custmr for this year less than 5 items"
+  },
+  {
+    "id": 810,
+    "question": "find customers for yesterday below 500"
+  },
+  {
+    "id": 811,
+    "question": "display stock for this year pending"
+  },
+  {
+    "id": 812,
+    "question": "get returns for this week above 1000"
+  },
+  {
+    "id": 813,
+    "question": "get invoices for last week cancelled"
+  },
+  {
+    "id": 814,
+    "question": "get sles for this year pending"
+  },
+  {
+    "id": 815,
+    "question": "get invoices for this month above 1000"
+  },
+  {
+    "id": 816,
+    "question": "find expenses for last month completed"
+  },
+  {
+    "id": 817,
+    "question": "show profit for today pending"
+  },
+  {
+    "id": 818,
+    "question": "give orders for last month greater than 10 units"
+  },
+  {
+    "id": 819,
+    "question": "list returns for this week completed"
+  },
+  {
+    "id": 820,
+    "question": "show sales for this month cancelled"
+  },
+  {
+    "id": 821,
+    "question": "calculate stock for last 3 months greater than 10 units"
+  },
+  {
+    "id": 822,
+    "question": "list suppliers for today with lowest value"
+  },
+  {
+    "id": 823,
+    "question": "find returns for last month pending"
+  },
+  {
+    "id": 824,
+    "question": "show invoices for last week pending"
+  },
+  {
+    "id": 825,
+    "question": "calculate invoices for today below 500"
+  },
+  {
+    "id": 826,
+    "question": "tell me orders for this year cancelled"
+  },
+  {
+    "id": 827,
+    "question": "get customers for last week less than 5 items"
+  },
+  {
+    "id": 828,
+    "question": "tell me invoices for last week with lowest value"
+  },
+  {
+    "id": 829,
+    "question": "show orders for this month pending"
+  },
+  {
+    "id": 830,
+    "question": "calculate invoices for last month with lowest value"
+  },
+  {
+    "id": 831,
+    "question": "display customers for last week less than 5 items"
+  },
+  {
+    "id": 832,
+    "question": "give suppliers for last month less than 5 items"
+  },
+  {
+    "id": 833,
+    "question": "list suppliers for today completed"
+  },
+  {
+    "id": 834,
+    "question": "find profit for today cancelled"
+  },
+  {
+    "id": 835,
+    "question": "give suppliers for last 3 months with lowest value"
+  },
+  {
+    "id": 836,
+    "question": "show inventory for this week above 1000"
+  },
+  {
+    "id": 837,
+    "question": "find profit for last week less than 5 items"
+  },
+  {
+    "id": 838,
+    "question": "display sales for this year below 500"
+  },
+  {
+    "id": 839,
+    "question": "find saels for today completed"
+  },
+  {
+    "id": 840,
+    "question": "give suppliers for this week below 500"
+  },
+  {
+    "id": 841,
+    "question": "show suppliers for this year with highest value"
+  },
+  {
+    "id": 842,
+    "question": "list orders for last week less than 5 items"
+  },
+  {
+    "id": 843,
+    "question": "show customers for yesterday pending"
+  },
+  {
+    "id": 844,
+    "question": "find suppliers for yesterday below 500"
+  },
+  {
+    "id": 845,
+    "question": "show profit for last week below 500"
+  },
+  {
+    "id": 846,
+    "question": "give revenue for today greater than 10 units"
+  },
+  {
+    "id": 847,
+    "question": "tell me suppliers for yesterday above 1000"
+  },
+  {
+    "id": 848,
+    "question": "show orders for yesterday completed"
+  },
+  {
+    "id": 849,
+    "question": "give ordrs for last week greater than 10 units"
+  },
+  {
+    "id": 850,
+    "question": "show orders for last month cancelled"
+  },
+  {
+    "id": 851,
+    "question": "show suppliers for this year cancelled"
+  },
+  {
+    "id": 852,
+    "question": "give inventory for today below 500"
+  },
+  {
+    "id": 853,
+    "question": "find revenue for last week greater than 10 units"
+  },
+  {
+    "id": 854,
+    "question": "get profit for last week with highest value"
+  },
+  {
+    "id": 855,
+    "question": "list sales for this month greater than 10 units"
+  },
+  {
+    "id": 856,
+    "question": "list customers for today below 500"
+  },
+  {
+    "id": 857,
+    "question": "get sales for last 3 months with lowest value"
+  },
+  {
+    "id": 858,
+    "question": "get customers for last month below 500"
+  },
+  {
+    "id": 859,
+    "question": "list stock for last 3 months below 500"
+  },
+  {
+    "id": 860,
+    "question": "find stock for yesterday less than 5 items"
+  },
+  {
+    "id": 861,
+    "question": "find custmers for this week pending"
+  },
+  {
+    "id": 862,
+    "question": "get orders for last month pending"
+  },
+  {
+    "id": 863,
+    "question": "list sales for last month pending"
+  },
+  {
+    "id": 864,
+    "question": "get profit for last month completed"
+  },
+  {
+    "id": 865,
+    "question": "calculate custmers for this year with highest value"
+  },
+  {
+    "id": 866,
+    "question": "find sales for this week above 1000"
+  },
+  {
+    "id": 867,
+    "question": "give returns for this month greater than 10 units"
+  },
+  {
+    "id": 868,
+    "question": "tell me returns for this month pending"
+  },
+  {
+    "id": 869,
+    "question": "give inventory for last week less than 5 items"
+  },
+  {
+    "id": 870,
+    "question": "get orders for last week above 1000"
+  },
+  {
+    "id": 871,
+    "question": "show customers for today pending"
+  },
+  {
+    "id": 872,
+    "question": "calculate sales for this year completed"
+  },
+  {
+    "id": 873,
+    "question": "find odrs for this month completed"
+  },
+  {
+    "id": 874,
+    "question": "get returns for last week above 1000"
+  },
+  {
+    "id": 875,
+    "question": "list stock for last month greater than 10 units"
+  },
+  {
+    "id": 876,
+    "question": "tell me customers for last week with highest value"
+  },
+  {
+    "id": 877,
+    "question": "tell me expenses for this month below 500"
+  },
+  {
+    "id": 878,
+    "question": "tell me inventory for this year with lowest value"
+  },
+  {
+    "id": 879,
+    "question": "give stock for this week cancelled"
+  },
+  {
+    "id": 880,
+    "question": "list invoices for last week greater than 10 units"
+  },
+  {
+    "id": 881,
+    "question": "calculate invoices for last 3 months cancelled"
+  },
+  {
+    "id": 882,
+    "question": "list expenses for today cancelled"
+  },
+  {
+    "id": 883,
+    "question": "calculate returns for this month cancelled"
+  },
+  {
+    "id": 884,
+    "question": "find stock for today with lowest value"
+  },
+  {
+    "id": 885,
+    "question": "show revenue for this year with highest value"
+  },
+  {
+    "id": 886,
+    "question": "tell me orders for last month greater than 10 units"
+  },
+  {
+    "id": 887,
+    "question": "list profit for today cancelled"
+  },
+  {
+    "id": 888,
+    "question": "get sales for this year cancelled"
+  },
+  {
+    "id": 889,
+    "question": "calculate orders for last 3 months completed"
+  },
+  {
+    "id": 890,
+    "question": "give stock for this month cancelled"
+  },
+  {
+    "id": 891,
+    "question": "get invoices for last week less than 5 items"
+  },
+  {
+    "id": 892,
+    "question": "get stock for this month pending"
+  },
+  {
+    "id": 893,
+    "question": "get revenue for this month below 500"
+  },
+  {
+    "id": 894,
+    "question": "find expenses for this year with lowest value"
+  },
+  {
+    "id": 895,
+    "question": "tell me expenses for today completed"
+  },
+  {
+    "id": 896,
+    "question": "display revenue for last month below 500"
+  },
+  {
+    "id": 897,
+    "question": "get stok for last week above 1000"
+  },
+  {
+    "id": 898,
+    "question": "find customers for this year pending"
+  },
+  {
+    "id": 899,
+    "question": "get invoices for today less than 5 items"
+  },
+  {
+    "id": 900,
+    "question": "tell me customers for this year cancelled"
+  },
+  {
+    "id": 901,
+    "question": "tell me revenue for last 3 months completed"
+  },
+  {
+    "id": 902,
+    "question": "display expenses for last week less than 5 items"
+  },
+  {
+    "id": 903,
+    "question": "get orders for today with lowest value"
+  },
+  {
+    "id": 904,
+    "question": "display sales for today cancelled"
+  },
+  {
+    "id": 905,
+    "question": "show inventory for last week with highest value"
+  },
+  {
+    "id": 906,
+    "question": "list custmers for this year with highest value"
+  },
+  {
+    "id": 907,
+    "question": "list stock for last 3 months less than 5 items"
+  },
+  {
+    "id": 908,
+    "question": "give suppliers for last week cancelled"
+  },
+  {
+    "id": 909,
+    "question": "give orders for last 3 months cancelled"
+  },
+  {
+    "id": 910,
+    "question": "find revenue for yesterday cancelled"
+  },
+  {
+    "id": 911,
+    "question": "give inventry for last week above 1000"
+  },
+  {
+    "id": 912,
+    "question": "give expenses for last 3 months below 500"
+  },
+  {
+    "id": 913,
+    "question": "display returns for last month with highest value"
+  },
+  {
+    "id": 914,
+    "question": "calculate customers for last week below 500"
+  },
+  {
+    "id": 915,
+    "question": "tell me invoices for last month with highest value"
+  },
+  {
+    "id": 916,
+    "question": "calculate revenue for last 3 months with lowest value"
+  },
+  {
+    "id": 917,
+    "question": "calculate profit for this week pending"
+  },
+  {
+    "id": 918,
+    "question": "give returns for last 3 months below 500"
+  },
+  {
+    "id": 919,
+    "question": "find returns for this week less than 5 items"
+  },
+  {
+    "id": 920,
+    "question": "give customers for this year less than 5 items"
+  },
+  {
+    "id": 921,
+    "question": "calculate invoices for this year above 1000"
+  },
+  {
+    "id": 922,
+    "question": "list suppliers for this month pending"
+  },
+  {
+    "id": 923,
+    "question": "tell me sales for this year with highest value"
+  },
+  {
+    "id": 924,
+    "question": "list stock for today completed"
+  },
+  {
+    "id": 925,
+    "question": "tell me sales for this month cancelled"
+  },
+  {
+    "id": 926,
+    "question": "give invoices for this month cancelled"
+  },
+  {
+    "id": 927,
+    "question": "tell me revenue for yesterday cancelled"
+  },
+  {
+    "id": 928,
+    "question": "calculate stock for today with lowest value"
+  },
+  {
+    "id": 929,
+    "question": "give sales for this year greater than 10 units"
+  },
+  {
+    "id": 930,
+    "question": "get customers for yesterday cancelled"
+  },
+  {
+    "id": 931,
+    "question": "get expenses for yesterday completed"
+  },
+  {
+    "id": 932,
+    "question": "list returns for this year completed"
+  },
+  {
+    "id": 933,
+    "question": "tell me revenue for last 3 months above 1000"
+  },
+  {
+    "id": 934,
+    "question": "tell me returns for this year above 1000"
+  },
+  {
+    "id": 935,
+    "question": "calculate returns for last week below 500"
+  },
+  {
+    "id": 936,
+    "question": "tell me returns for yesterday pending"
+  },
+  {
+    "id": 937,
+    "question": "list profit for last week cancelled"
+  },
+  {
+    "id": 938,
+    "question": "display returns for last 3 months cancelled"
+  },
+  {
+    "id": 939,
+    "question": "display revenue for last 3 months greater than 10 units"
+  },
+  {
+    "id": 940,
+    "question": "tell me customers for this year pending"
+  },
+  {
+    "id": 941,
+    "question": "show stock for last week less than 5 items"
+  },
+  {
+    "id": 942,
+    "question": "show stock for last month cancelled"
+  },
+  {
+    "id": 943,
+    "question": "calculate returns for today with highest value"
+  },
+  {
+    "id": 944,
+    "question": "give expenses for last 3 months completed"
+  },
+  {
+    "id": 945,
+    "question": "calculate stock for last 3 months with highest value"
+  },
+  {
+    "id": 946,
+    "question": "display returns for this year greater than 10 units"
+  },
+  {
+    "id": 947,
+    "question": "tell me returns for this month with lowest value"
+  },
+  {
+    "id": 948,
+    "question": "tell me stock for today completed"
+  },
+  {
+    "id": 949,
+    "question": "give inventory for this month greater than 10 units"
+  },
+  {
+    "id": 950,
+    "question": "display customers for last month pending"
+  },
+  {
+    "id": 951,
+    "question": "calculate suppliers for last 3 months cancelled"
+  },
+  {
+    "id": 952,
+    "question": "get orders for today above 1000"
+  },
+  {
+    "id": 953,
+    "question": "show profit for last 3 months below 500"
+  },
+  {
+    "id": 954,
+    "question": "get sales for this week pending"
+  },
+  {
+    "id": 955,
+    "question": "show profit for last month above 1000"
+  },
+  {
+    "id": 956,
+    "question": "calculate customers for last month with lowest value"
+  },
+  {
+    "id": 957,
+    "question": "calculate profit for this week greater than 10 units"
+  },
+  {
+    "id": 958,
+    "question": "tell me stock for today less than 5 items"
+  },
+  {
+    "id": 959,
+    "question": "give returns for this week less than 5 items"
+  },
+  {
+    "id": 960,
+    "question": "give expenses for this month with highest value"
+  },
+  {
+    "id": 961,
+    "question": "show stock for this week above 1000"
+  },
+  {
+    "id": 962,
+    "question": "give profit for this month less than 5 items"
+  },
+  {
+    "id": 963,
+    "question": "get revenue for last month greater than 10 units"
+  },
+  {
+    "id": 964,
+    "question": "give stock for this month below 500"
+  },
+  {
+    "id": 965,
+    "question": "find stock for yesterday with highest value"
+  },
+  {
+    "id": 966,
+    "question": "list invoices for last month pending"
+  },
+  {
+    "id": 967,
+    "question": "list returns for last week pending"
+  },
+  {
+    "id": 968,
+    "question": "give inventory for last month greater than 10 units"
+  },
+  {
+    "id": 969,
+    "question": "give revenue for today pending"
+  },
+  {
+    "id": 970,
+    "question": "list profit for last 3 months greater than 10 units"
+  },
+  {
+    "id": 971,
+    "question": "find orders for this week with lowest value"
+  },
+  {
+    "id": 972,
+    "question": "give inventory for today pending"
+  },
+  {
+    "id": 973,
+    "question": "give invoices for today below 500"
+  },
+  {
+    "id": 974,
+    "question": "get sales for today pending"
+  },
+  {
+    "id": 975,
+    "question": "give custmr for yesterday with lowest value"
+  },
+  {
+    "id": 976,
+    "question": "find profit for last week less than 5 items"
+  },
+  {
+    "id": 977,
+    "question": "get customers for this week above 1000"
+  },
+  {
+    "id": 978,
+    "question": "list expenses for this year completed"
+  },
+  {
+    "id": 979,
+    "question": "give expenses for this month greater than 10 units"
+  },
+  {
+    "id": 980,
+    "question": "list profit for last month pending"
+  },
+  {
+    "id": 981,
+    "question": "get customers for today below 500"
+  },
+  {
+    "id": 982,
+    "question": "give custmr for this week below 500"
+  },
+  {
+    "id": 983,
+    "question": "list invoices for this month completed"
+  },
+  {
+    "id": 984,
+    "question": "display stock for this year completed"
+  },
+  {
+    "id": 985,
+    "question": "show inventory for this year greater than 10 units"
+  },
+  {
+    "id": 986,
+    "question": "tell me inventory for last 3 months pending"
+  },
+  {
+    "id": 987,
+    "question": "list customers for today below 500"
+  },
+  {
+    "id": 988,
+    "question": "calculate orders for last week below 500"
+  },
+  {
+    "id": 989,
+    "question": "calculate expenses for today with lowest value"
+  },
+  {
+    "id": 990,
+    "question": "show revenue for this month above 1000"
+  },
+  {
+    "id": 991,
+    "question": "tell me proft for yesterday below 500"
+  },
+  {
+    "id": 992,
+    "question": "tell me orders for last week greater than 10 units"
+  },
+  {
+    "id": 993,
+    "question": "give revenue for today above 1000"
+  },
+  {
+    "id": 994,
+    "question": "display customers for today completed"
+  },
+  {
+    "id": 995,
+    "question": "give suppliers for yesterday above 1000"
+  },
+  {
+    "id": 996,
+    "question": "give sales for last 3 months above 1000"
+  },
+  {
+    "id": 997,
+    "question": "give returns for this week pending"
+  },
+  {
+    "id": 998,
+    "question": "calculate orders for this year cancelled"
+  },
+  {
+    "id": 999,
+    "question": "tell me orders for this year with highest value"
+  },
+  {
+    "id": 1000,
+    "question": "list sales for this year less than 5 items"
+  },
+  {
+    "id": 1001,
+    "question": "list customers for yesterday above 1000"
+  },
+  {
+    "id": 1002,
+    "question": "list revenue for last 3 months below 500"
+  },
+  {
+    "id": 1003,
+    "question": "find suppliers for last 3 months below 500"
+  },
+  {
+    "id": 1004,
+    "question": "show customers for this month less than 5 items"
+  },
+  {
+    "id": 1005,
+    "question": "get returns for yesterday completed"
+  },
+  {
+    "id": 1006,
+    "question": "find invoices for this week less than 5 items"
+  },
+  {
+    "id": 1007,
+    "question": "show suppliers for this month with highest value"
+  },
+  {
+    "id": 1008,
+    "question": "get revenue for last 3 months with highest value"
+  },
+  {
+    "id": 1009,
+    "question": "calculate odrs for last 3 months cancelled"
+  },
+  {
+    "id": 1010,
+    "question": "give invoices for today less than 5 items"
+  },
+  {
+    "id": 1011,
+    "question": "list sales for last week with highest value"
+  },
+  {
+    "id": 1012,
+    "question": "find revenue for yesterday greater than 10 units"
+  },
+  {
+    "id": 1013,
+    "question": "show suppliers for this month above 1000"
+  },
+  {
+    "id": 1014,
+    "question": "display sales for today pending"
+  },
+  {
+    "id": 1015,
+    "question": "show inventory for yesterday with highest value"
+  },
+  {
+    "id": 1016,
+    "question": "get expenses for this week above 1000"
+  },
+  {
+    "id": 1017,
+    "question": "tell me orders for today with highest value"
+  },
+  {
+    "id": 1018,
+    "question": "give revenue for last week less than 5 items"
+  },
+  {
+    "id": 1019,
+    "question": "find revenue for this week completed"
+  },
+  {
+    "id": 1020,
+    "question": "list inventory for last 3 months pending"
+  },
+  {
+    "id": 1021,
+    "question": "get returns for today with highest value"
+  },
+  {
+    "id": 1022,
+    "question": "list expenses for last 3 months completed"
+  },
+  {
+    "id": 1023,
+    "question": "show suppliers for this month greater than 10 units"
+  },
+  {
+    "id": 1024,
+    "question": "display returns for last 3 months pending"
+  },
+  {
+    "id": 1025,
+    "question": "find invoices for today with lowest value"
+  },
+  {
+    "id": 1026,
+    "question": "show invoices for today cancelled"
+  },
+  {
+    "id": 1027,
+    "question": "calculate orders for last 3 months less than 5 items"
+  },
+  {
+    "id": 1028,
+    "question": "find orders for today pending"
+  },
+  {
+    "id": 1029,
+    "question": "calculate profit for last month above 1000"
+  },
+  {
+    "id": 1030,
+    "question": "give stock for this year with highest value"
+  },
+  {
+    "id": 1031,
+    "question": "calculate sale for last 3 months with lowest value"
+  },
+  {
+    "id": 1032,
+    "question": "find returns for this month below 500"
+  },
+  {
+    "id": 1033,
+    "question": "show expenses for this month pending"
+  },
+  {
+    "id": 1034,
+    "question": "give revenue for last week less than 5 items"
+  },
+  {
+    "id": 1035,
+    "question": "tell me expenses for this month with highest value"
+  },
+  {
+    "id": 1036,
+    "question": "get revenue for this year with lowest value"
+  },
+  {
+    "id": 1037,
+    "question": "calculate invoices for last month with highest value"
+  },
+  {
+    "id": 1038,
+    "question": "tell me sales for today with highest value"
+  },
+  {
+    "id": 1039,
+    "question": "show stock for this month completed"
+  },
+  {
+    "id": 1040,
+    "question": "get suppliers for last week above 1000"
+  },
+  {
+    "id": 1041,
+    "question": "give customers for last week above 1000"
+  },
+  {
+    "id": 1042,
+    "question": "tell me odrs for last month completed"
+  },
+  {
+    "id": 1043,
+    "question": "find invoices for yesterday greater than 10 units"
+  },
+  {
+    "id": 1044,
+    "question": "list sales for last month greater than 10 units"
+  },
+  {
+    "id": 1045,
+    "question": "show revenue for this week less than 5 items"
+  },
+  {
+    "id": 1046,
+    "question": "calculate returns for this month pending"
+  },
+  {
+    "id": 1047,
+    "question": "find revenue for last 3 months with highest value"
+  },
+  {
+    "id": 1048,
+    "question": "give revenue for last month greater than 10 units"
+  },
+  {
+    "id": 1049,
+    "question": "tell me customers for last 3 months less than 5 items"
+  },
+  {
+    "id": 1050,
+    "question": "give invntory for today pending"
+  },
+  {
+    "id": 1051,
+    "question": "list sales for last month with highest value"
+  },
+  {
+    "id": 1052,
+    "question": "display invoices for this month with highest value"
+  },
+  {
+    "id": 1053,
+    "question": "give suppliers for this week completed"
+  },
+  {
+    "id": 1054,
+    "question": "display returns for last month with lowest value"
+  },
+  {
+    "id": 1055,
+    "question": "give revenue for this month with lowest value"
+  },
+  {
+    "id": 1056,
+    "question": "display inventory for last 3 months cancelled"
+  },
+  {
+    "id": 1057,
+    "question": "list revenue for last 3 months greater than 10 units"
+  },
+  {
+    "id": 1058,
+    "question": "show sales for this month with lowest value"
+  },
+  {
+    "id": 1059,
+    "question": "display sales for this year completed"
+  },
+  {
+    "id": 1060,
+    "question": "give orders for this month completed"
+  },
+  {
+    "id": 1061,
+    "question": "show orders for today below 500"
+  },
+  {
+    "id": 1062,
+    "question": "list suppliers for yesterday with highest value"
+  },
+  {
+    "id": 1063,
+    "question": "display invoices for today with highest value"
+  },
+  {
+    "id": 1064,
+    "question": "find revenue for this week greater than 10 units"
+  },
+  {
+    "id": 1065,
+    "question": "list revenue for this month with highest value"
+  },
+  {
+    "id": 1066,
+    "question": "show expns for last 3 months pending"
+  },
+  {
+    "id": 1067,
+    "question": "find revenue for last week cancelled"
+  },
+  {
+    "id": 1068,
+    "question": "show orders for last 3 months with lowest value"
+  },
+  {
+    "id": 1069,
+    "question": "tell me suppliers for this week with lowest value"
+  },
+  {
+    "id": 1070,
+    "question": "tell me sales for today greater than 10 units"
+  },
+  {
+    "id": 1071,
+    "question": "display suppliers for last 3 months with lowest value"
+  },
+  {
+    "id": 1072,
+    "question": "display customers for last 3 months pending"
+  },
+  {
+    "id": 1073,
+    "question": "get profit for last 3 months greater than 10 units"
+  },
+  {
+    "id": 1074,
+    "question": "give stock for this week with lowest value"
+  },
+  {
+    "id": 1075,
+    "question": "find expenses for today with highest value"
+  },
+  {
+    "id": 1076,
+    "question": "show sales for last month completed"
+  },
+  {
+    "id": 1077,
+    "question": "tell me profit for today with lowest value"
+  },
+  {
+    "id": 1078,
+    "question": "find returns for last 3 months pending"
+  },
+  {
+    "id": 1079,
+    "question": "give orders for last week completed"
+  },
+  {
+    "id": 1080,
+    "question": "list customers for this week with lowest value"
+  },
+  {
+    "id": 1081,
+    "question": "find revenue for this month cancelled"
+  },
+  {
+    "id": 1082,
+    "question": "find expenses for this year below 500"
+  },
+  {
+    "id": 1083,
+    "question": "tell me orders for last 3 months above 1000"
+  },
+  {
+    "id": 1084,
+    "question": "get revenue for last week cancelled"
+  },
+  {
+    "id": 1085,
+    "question": "get returns for last 3 months pending"
+  },
+  {
+    "id": 1086,
+    "question": "list invoices for this month greater than 10 units"
+  },
+  {
+    "id": 1087,
+    "question": "calculate invoices for last week pending"
+  },
+  {
+    "id": 1088,
+    "question": "show profit for this month less than 5 items"
+  },
+  {
+    "id": 1089,
+    "question": "tell me returns for last month with highest value"
+  },
+  {
+    "id": 1090,
+    "question": "display sales for last month cancelled"
+  },
+  {
+    "id": 1091,
+    "question": "list sles for last week pending"
+  },
+  {
+    "id": 1092,
+    "question": "find customers for last month pending"
+  },
+  {
+    "id": 1093,
+    "question": "list revenue for last 3 months greater than 10 units"
+  },
+  {
+    "id": 1094,
+    "question": "display sales for today cancelled"
+  },
+  {
+    "id": 1095,
+    "question": "give expences for last 3 months with highest value"
+  },
+  {
+    "id": 1096,
+    "question": "show stock for this week completed"
+  },
+  {
+    "id": 1097,
+    "question": "give orders for today with lowest value"
+  },
+  {
+    "id": 1098,
+    "question": "show invoices for last week greater than 10 units"
+  },
+  {
+    "id": 1099,
+    "question": "get expenses for today cancelled"
+  },
+  {
+    "id": 1100,
+    "question": "tell me revenue for this month with lowest value"
+  }
+]

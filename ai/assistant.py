@@ -2,6 +2,7 @@ import os
 import requests
 import json
 import pandas as pd
+from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"))
@@ -28,24 +29,36 @@ def get_assistant_response(user_input, module_name="general", chat_history=None)
         chat_history = []
          
     # 1. Ask Ollama to generate a SQL query if needed
+    current_date = datetime.now().strftime("%Y-%m-%d")
     sql_prompt = f"""
     You are a strict SQL-only agent for a SQLite database. 
     User Question: "{user_input}"
+    TODAY'S DATE: {current_date}
     
     TABLES:
-    - inventory (id, product_name, category, quantity, unit_price, reorder_level)
-    - transactions (id, date, type, category, description, amount)
+    - inventory (id, product_name, category, quantity, unit_price, reorder_level) [NOTE: NO date/time column here, represents CURRENT stock only]
+    - transactions (id, date, type, category, description, amount) [Use for history/dates]
     - tickets (id, title, description, priority, status)
+    - sales (id, product_name, quantity_sold, sale_price, sale_date) [Use for sales history]
     
-    KNOWN CATEGORIES: Electronics, Furniture, Office Supplies
+    KNOWN CATEGORIES: Electronics, Phones, Laptops, Components, Audio, Networking
     
     QUERY RULES:
     1. Output ONLY a valid SQLite SELECT query.
-    2. STRING MATCHING: SQLite is CASE-SENSITIVE. Use `LIKE` for text (e.g., `WHERE category LIKE 'furniture'`).
-    3. EXAMPLES:
-       - "stock value": SELECT category, SUM(quantity * unit_price) as total_val FROM inventory GROUP BY category;
-       - "total revenue": SELECT SUM(amount) FROM transactions WHERE type LIKE 'income';
-    4. GREETINGS: If just 'hi', output 'NO_QUERY'.
+    2. STRING MATCHING: SQLite is CASE-SENSITIVE. Use `LIKE` for text.
+    3. FUZZY MAPPING: 
+       - "inoventry", "stock", "itms" -> `inventory`
+       - "expences", "expns" -> `transactions` where type='expense'
+       - "profet", "proft" -> `transactions` logic
+    4. NO HALLUCINATION: Do NOT use columns like 'quantity_date', 'status' or 'timestamp' in the `inventory` table.
+    5. DATE FILTERING: Use `strftime('%Y', date)` or `date LIKE '2026-%'`.
+    6. REVENUE vs SALES: 
+       - Use `transactions` table for total COMPANY REVENUE.
+       - Use `sales` table for PRODUCT/CATEGORY trends.
+    7. EXAMPLES:
+       - "sales by category": SELECT i.category, SUM(s.quantity_sold * s.sale_price) as total FROM sales s JOIN inventory i ON s.product_name = i.product_name GROUP BY i.category ORDER BY total DESC;
+       - "how many items": SELECT COUNT(*) FROM inventory;
+    8. GREETINGS: If just 'hi', output 'NO_QUERY'.
     """
     
     payload_sql = {
@@ -56,7 +69,7 @@ def get_assistant_response(user_input, module_name="general", chat_history=None)
     }
     
     try:
-        resp = requests.post(OLLAMA_URL, json=payload_sql, timeout=30)
+        resp = requests.post(OLLAMA_URL, json=payload_sql, timeout=60)
         query = ""
         if resp.status_code == 200:
             query_raw = resp.json().get("message", {}).get("content", "").strip()
@@ -94,9 +107,11 @@ def get_assistant_response(user_input, module_name="general", chat_history=None)
             
             STRICT INSTRUCTIONS:
             1. Use ONLY the 'REFERENCE DATA' provided above to answer.
-            2. CURRENCY: Always use the Rupee symbol (₹) for currency. Never use dollars ($).
+            2. CURRENCY vs QUANTITY: 
+               - Use the Rupee symbol (₹) ONLY for financial amounts (Price, Revenue, Expense, Amount).
+               - Do NOT use currency symbols for counts, quantities, or IDs (e.g., "20 items", NOT "₹20 items").
             3. If the data indicates 'zero results' or an Error, state that you couldn't find the records.
-            4. NEVER make up data. If a specific product isn't in 'REFERENCE DATA', it doesn't exist.
+            4. NEVER make up data.
             5. Keep your answer professional and concise.
             """
             
@@ -108,7 +123,7 @@ def get_assistant_response(user_input, module_name="general", chat_history=None)
                 "stream": False,
                 "options": {"temperature": 0.1}
             }
-            res_final = requests.post(OLLAMA_URL, json=payload_final, timeout=30)
+            res_final = requests.post(OLLAMA_URL, json=payload_final, timeout=60)
             if res_final.status_code == 200:
                 answer = res_final.json().get("message", {}).get("content", "")
                 return answer.strip()

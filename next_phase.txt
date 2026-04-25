@@ -1,0 +1,40 @@
+==================================================
+        🚀 BIZMIND NEXT PHASE: PUBLIC DEPLOYMENT
+==================================================
+
+GOAL: Deploy BizMind to Streamlit Community Cloud for LinkedIn 
+portfolio showcase and user testing.
+
+1. CLOUD AI INTEGRATION (GEMINI)
+--------------------------------
+- Switch from local Ollama (Qwen2.5) to Google Gemini API.
+- Reason: Streamlit Cloud cannot access local Ollama.
+- Benefit: 24/7 availability and faster response times for web users.
+
+2. DEMO MODE & SECURITY
+-----------------------
+- Create a dedicated "Guest" login (Username: guest / Password: guest123).
+- Implement "Read-Only" restrictions for guest users to prevent data deletion.
+- Add a "Reset Dashboard" utility to clear test data.
+
+3. USER FEEDBACK MODULE
+-----------------------
+- Add a "Provide Feedback" button in the sidebar.
+- Create a 'feedback' table in the database to store user reviews.
+- This demonstrates user-centric development to recruiters.
+
+4. DEPLOYMENT STEPS
+-------------------
+- Finalize requirements.txt (add 'google-generativeai').
+- Setup Streamlit Secrets for the Gemini API Key.
+- Deploy via Streamlit Community Cloud (connected to GitHub).
+
+5. PORTFOLIO POLISH
+-------------------
+- Create a 1-minute demo video of the AI Chat answering inventory questions.
+- Update LinkedIn "Projects" section with the live .app link.
+
+==================================================
+Current Version: V3.1 (Stable & Pushed)
+Next Version: V4.0 (Cloud & Public)
+==================================================
